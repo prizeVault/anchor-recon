@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SIMULATED statement for SIM ANCHOR EMI (simulated); not a real bank. -->
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:camt.053.001.08">
+  <BkToCstmrStmt>
+    <GrpHdr><MsgId>SIMA-MSG-20260810</MsgId><CreDtTm>2026-08-10T18:30:00Z</CreDtTm></GrpHdr>
+    <Stmt>
+      <Id>SIMA-20260810</Id>
+      <ElctrncSeqNb>6</ElctrncSeqNb>
+      <CreDtTm>2026-08-10T18:30:00Z</CreDtTm>
+      <Acct><Id><IBAN>GB00SIMA00000000000001</IBAN></Id><Ccy>EUR</Ccy><Nm>SAFEGUARDING - CLIENT MONEY</Nm></Acct>
+      <Bal><Tp><CdOrPrtry><Cd>OPBD</Cd></CdOrPrtry></Tp><Amt Ccy="EUR">3206.45</Amt><CdtDbtInd>CRDT</CdtDbtInd><Dt><Dt>2026-08-10</Dt></Dt></Bal>
+      <Bal><Tp><CdOrPrtry><Cd>CLBD</Cd></CdOrPrtry></Tp><Amt Ccy="EUR">2973.42</Amt><CdtDbtInd>CRDT</CdtDbtInd><Dt><Dt>2026-08-10</Dt></Dt></Bal>
+      <Ntry>
+        <NtryRef>SIMA202608100001</NtryRef>
+        <Amt Ccy="EUR">365.77</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-10</Dt></BookgDt>
+        <ValDt><Dt>2026-08-10</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608100001</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>NOTPROVIDED</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>MARIA JOSE SCHRODER</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>AR-4B2DBNX0-Q PART 2</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608100002</NtryRef>
+        <Amt Ccy="EUR">188.75</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-10</Dt></BookgDt>
+        <ValDt><Dt>2026-08-10</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608100002</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>NOTPROVIDED</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>MULLER SIOBHAN</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>ARF87NM7Z1C MULLER SIOBHAN</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608100003</NtryRef>
+        <Amt Ccy="EUR">181.83</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-10</Dt></BookgDt>
+        <ValDt><Dt>2026-08-10</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608100003</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>NOTPROVIDED</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>FERNANDEZ EMMA GONZALEZ</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>AR-PZP3V8YK-Z FERNANDEZ EMMA GONZALEZ</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608100004</NtryRef>
+        <Amt Ccy="EUR">1377.70</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-10</Dt></BookgDt>
+        <ValDt><Dt>2026-08-10</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608100004</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>PAYERA63716FDDEDF</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>GRACE WISNIEWSKI</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>SEPA CT FROM GRACE WISNIEWSKI REF AR FK8WV1D8 F</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608100005</NtryRef>
+        <Amt Ccy="EUR">189.47</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-10</Dt></BookgDt>
+        <ValDt><Dt>2026-08-10</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608100005</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>NOTPROVIDED</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>K KOWALSKI</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>ARMZ9S0VHM0 K KOWALSKI</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608100006</NtryRef>
+        <Amt Ccy="EUR">262.00</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-10</Dt></BookgDt>
+        <ValDt><Dt>2026-08-10</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608100006</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>NOTPROVIDED</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>GRACE ANDERSSON</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>AR 6S1Y5XSY K GRACE ANDERSSON</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608100007</NtryRef>
+        <Amt Ccy="EUR">233.57</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-10</Dt></BookgDt>
+        <ValDt><Dt>2026-08-10</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608100007</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>PAYER26DA77AECDB0</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>ANA HORVATH</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>AR-PH25GAV7-E ANA HORVATH</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608100008</NtryRef>
+        <Amt Ccy="EUR">1123.67</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-10</Dt></BookgDt>
+        <ValDt><Dt>2026-08-10</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608100008</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>PAYERCA94B245EC43</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>L KOVACEVIC</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>ARZNMN7HFW5 L KOVACEVIC</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608100009</NtryRef>
+        <Amt Ccy="EUR">817.09</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-10</Dt></BookgDt>
+        <ValDt><Dt>2026-08-10</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608100009</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>NOTPROVIDED</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>S MULLER</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>SEPA CT FROM S MULLER REF AR-ECBH24PR-V</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608100010</NtryRef>
+        <Amt Ccy="EUR">373.33</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-10</Dt></BookgDt>
+        <ValDt><Dt>2026-08-10</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608100010</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>NOTPROVIDED</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>CHUKWUEMEKA MOREAU</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>SEPA CT FROM CHUKWUEMEKA MOREAU REF AR QXVJRNTY M</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608100011</NtryRef>
+        <Amt Ccy="EUR">5346.21</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-10</Dt></BookgDt>
+        <ValDt><Dt>2026-08-10</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608100011</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>NOTPROVIDED</EndToEndId></Refs><RltdPties><Cdtr><Pty><Nm>SIM ANCHOR EMI (simulated)</Nm></Pty></Cdtr></RltdPties><RmtInf><Ustrd>SWEEP TO PAYOUT ACCT</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+    </Stmt>
+  </BkToCstmrStmt>
+</Document>

@@ -1,0 +1,117 @@
+{
+ "name": "fee-diff",
+ "days": [
+  "2026-08-10",
+  "2026-08-11"
+ ],
+ "customers": [
+  {
+   "id": "C1",
+   "name": "José Luis Pérez García"
+  },
+  {
+   "id": "C2",
+   "name": "Małgorzata Wiśniewska"
+  },
+  {
+   "id": "C3",
+   "name": "Chukwuemeka Obinna Nwankwo-Eze Okafor"
+  },
+  {
+   "id": "C4",
+   "name": "Aoife Fitzgerald"
+  },
+  {
+   "id": "C5",
+   "name": "Søren Østergaard"
+  }
+ ],
+ "platform": {
+  "2026-08-10": [
+   {
+    "id": "tx-fee-in",
+    "sep": "24",
+    "kind": "deposit",
+    "status": "completed",
+    "amount_in": {
+     "amount": "500.00",
+     "asset": "iso4217:EUR"
+    },
+    "amount_out": {
+     "amount": "497.50",
+     "asset": "stellar:EURC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+    },
+    "amount_fee": {
+     "amount": "2.50",
+     "asset": "iso4217:EUR"
+    },
+    "started_at": "2026-08-10T09:00:00Z",
+    "completed_at": "2026-08-10T15:00:00Z",
+    "updated_at": "2026-08-10T15:00:00Z",
+    "stellar_transactions": [],
+    "bank_ref": "AR-N9SA2XJB-7",
+    "customers": {
+     "sender": {
+      "id": "C4"
+     }
+    }
+   },
+   {
+    "id": "tx-fee-out",
+    "sep": "24",
+    "kind": "deposit",
+    "status": "completed",
+    "amount_in": {
+     "amount": "700.00",
+     "asset": "iso4217:EUR"
+    },
+    "amount_out": {
+     "amount": "696.50",
+     "asset": "stellar:EURC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+    },
+    "amount_fee": {
+     "amount": "3.50",
+     "asset": "iso4217:EUR"
+    },
+    "started_at": "2026-08-10T09:00:00Z",
+    "completed_at": "2026-08-10T15:00:00Z",
+    "updated_at": "2026-08-10T15:00:00Z",
+    "stellar_transactions": [],
+    "bank_ref": "AR-WS7QFN50-W",
+    "customers": {
+     "sender": {
+      "id": "C5"
+     }
+    }
+   }
+  ]
+ },
+ "chain": {},
+ "bank": {
+  "2026-08-10": [
+   {
+    "id": "A:f1",
+    "account": "bank-a",
+    "direction": "credit",
+    "amount": "49965",
+    "valueDate": "2026-08-10",
+    "narrative": "AR-N9SA2XJB-7 AOIFE FITZGERALD",
+    "counterparty": "AOIFE FITZGERALD",
+    "charges": "35"
+   },
+   {
+    "id": "A:f2",
+    "account": "bank-a",
+    "direction": "credit",
+    "amount": "69950",
+    "valueDate": "2026-08-10",
+    "narrative": "AR-WS7QFN50-W SOREN OSTERGAARD",
+    "counterparty": "SOREN OSTERGAARD"
+   }
+  ]
+ },
+ "expect": {
+  "proposal": "tx-fee-in",
+  "mismatch": "tx-fee-out"
+ }
+}

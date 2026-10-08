@@ -1,0 +1,44 @@
+{
+  "_note": "Simulated registry plan used by `recon simulate` (registryModel) and mirrored as constants in the Rust scenario test.",
+  "start_day": 20668,
+  "weekday_mask": 31,
+  "grace_secs": 43200,
+  "currency": "EUR",
+  "decimals": 2,
+  "home_domain": "sim-anchor.example",
+  "attest_time_utc": "18:00",
+  "skip_on_time": [
+    "2026-08-20"
+  ],
+  "mark_gaps": {
+    "on": "2026-08-21",
+    "at": "13:00"
+  },
+  "late_attest": {
+    "day": "2026-08-20",
+    "on": "2026-08-21",
+    "at": "16:00"
+  },
+  "restate": {
+    "day": "2026-08-12",
+    "on": "2026-08-13",
+    "reason": "late_bank_item"
+  },
+  "rotate": {
+    "on": "2026-08-14",
+    "at": "08:00",
+    "reason": "scheduled"
+  },
+  "declare": {
+    "day": "2026-08-31",
+    "on": "2026-08-28",
+    "reason": "bank_holiday"
+  },
+  "countersign": {
+    "day": "2026-08-28",
+    "version": 0,
+    "on": "2026-09-01",
+    "at": "10:00",
+    "opinion": "agreed"
+  }
+}

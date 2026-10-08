@@ -1,0 +1,152 @@
+{
+ "name": "split",
+ "days": [
+  "2026-08-10",
+  "2026-08-11"
+ ],
+ "customers": [
+  {
+   "id": "C1",
+   "name": "José Luis Pérez García"
+  },
+  {
+   "id": "C2",
+   "name": "Małgorzata Wiśniewska"
+  },
+  {
+   "id": "C3",
+   "name": "Chukwuemeka Obinna Nwankwo-Eze Okafor"
+  },
+  {
+   "id": "C4",
+   "name": "Aoife Fitzgerald"
+  },
+  {
+   "id": "C5",
+   "name": "Søren Østergaard"
+  }
+ ],
+ "platform": {
+  "2026-08-10": [
+   {
+    "id": "tx-split-2",
+    "sep": "24",
+    "kind": "deposit",
+    "status": "pending_anchor",
+    "amount_in": {
+     "amount": "1000.00",
+     "asset": "iso4217:EUR"
+    },
+    "amount_out": {
+     "amount": "995.00",
+     "asset": "stellar:EURC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+    },
+    "amount_fee": {
+     "amount": "5.00",
+     "asset": "iso4217:EUR"
+    },
+    "started_at": "2026-08-10T09:00:00Z",
+    "updated_at": "2026-08-10T15:00:00Z",
+    "stellar_transactions": [],
+    "bank_ref": "AR-019BX4RA-E",
+    "customers": {
+     "sender": {
+      "id": "C1"
+     }
+    }
+   },
+   {
+    "id": "tx-split-3",
+    "sep": "24",
+    "kind": "deposit",
+    "status": "pending_user_transfer_start",
+    "amount_in": {
+     "amount": "900.00",
+     "asset": "iso4217:EUR"
+    },
+    "amount_out": {
+     "amount": "895.50",
+     "asset": "stellar:EURC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+    },
+    "amount_fee": {
+     "amount": "4.50",
+     "asset": "iso4217:EUR"
+    },
+    "started_at": "2026-08-10T09:00:00Z",
+    "updated_at": "2026-08-10T15:00:00Z",
+    "stellar_transactions": [],
+    "bank_ref": "AR-YBQ9HZNK-Q",
+    "customers": {
+     "sender": {
+      "id": "C2"
+     }
+    }
+   }
+  ]
+ },
+ "chain": {},
+ "bank": {
+  "2026-08-10": [
+   {
+    "id": "A:s1",
+    "account": "bank-a",
+    "direction": "credit",
+    "amount": "40000",
+    "valueDate": "2026-08-10",
+    "narrative": "AR-019BX4RA-E PART 1",
+    "counterparty": "PEREZ GARCIA JOSE LUIS"
+   },
+   {
+    "id": "A:s2",
+    "account": "bank-a",
+    "direction": "credit",
+    "amount": "60000",
+    "valueDate": "2026-08-10",
+    "narrative": "PART 2 PEREZ GARCIA JOSE LUIS",
+    "counterparty": "PEREZ GARCIA JOSE LUIS"
+   },
+   {
+    "id": "A:t1",
+    "account": "bank-a",
+    "direction": "credit",
+    "amount": "30000",
+    "valueDate": "2026-08-10",
+    "narrative": "AR-YBQ9HZNK-Q PART 1",
+    "counterparty": "M WISNIEWSKA"
+   },
+   {
+    "id": "A:t2",
+    "account": "bank-a",
+    "direction": "credit",
+    "amount": "25000",
+    "valueDate": "2026-08-10",
+    "narrative": "PART 2",
+    "counterparty": "M WISNIEWSKA"
+   }
+  ],
+  "2026-08-11": [
+   {
+    "id": "A:t3",
+    "account": "bank-a",
+    "direction": "credit",
+    "amount": "35000",
+    "valueDate": "2026-08-11",
+    "narrative": "PART 3",
+    "counterparty": "M WISNIEWSKA"
+   }
+  ]
+ },
+ "expect": {
+  "splits": {
+   "tx-split-2": [
+    "A:s1",
+    "A:s2"
+   ],
+   "tx-split-3": [
+    "A:t1",
+    "A:t2",
+    "A:t3"
+   ]
+  }
+ }
+}

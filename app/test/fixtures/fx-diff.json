@@ -1,0 +1,126 @@
+{
+ "name": "fx-diff",
+ "days": [
+  "2026-08-10",
+  "2026-08-11"
+ ],
+ "customers": [
+  {
+   "id": "C1",
+   "name": "José Luis Pérez García"
+  },
+  {
+   "id": "C2",
+   "name": "Małgorzata Wiśniewska"
+  },
+  {
+   "id": "C3",
+   "name": "Chukwuemeka Obinna Nwankwo-Eze Okafor"
+  },
+  {
+   "id": "C4",
+   "name": "Aoife Fitzgerald"
+  },
+  {
+   "id": "C5",
+   "name": "Søren Østergaard"
+  }
+ ],
+ "platform": {
+  "2026-08-10": [
+   {
+    "id": "tx-fx-49",
+    "sep": "31",
+    "kind": "receive",
+    "status": "completed",
+    "amount_in": {
+     "amount": "1100.00",
+     "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+    },
+    "amount_out": {
+     "amount": "1000.00",
+     "asset": "iso4217:EUR"
+    },
+    "amount_fee": {
+     "amount": "1.00",
+     "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+    },
+    "started_at": "2026-08-10T09:00:00Z",
+    "completed_at": "2026-08-10T15:00:00Z",
+    "updated_at": "2026-08-10T15:00:00Z",
+    "stellar_transactions": [],
+    "external_transaction_id": "E2EFX49",
+    "bank_ref": "AR-RFSPGD32-K",
+    "customers": {
+     "sender": {
+      "id": "EXT-1"
+     },
+     "receiver": {
+      "id": "C3"
+     }
+    },
+    "travel_rule_ref": "TRP-FFFFFFFFFFF1"
+   },
+   {
+    "id": "tx-fx-51",
+    "sep": "31",
+    "kind": "receive",
+    "status": "completed",
+    "amount_in": {
+     "amount": "2200.00",
+     "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+    },
+    "amount_out": {
+     "amount": "2000.00",
+     "asset": "iso4217:EUR"
+    },
+    "amount_fee": {
+     "amount": "1.00",
+     "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+    },
+    "started_at": "2026-08-10T09:00:00Z",
+    "completed_at": "2026-08-10T15:00:00Z",
+    "updated_at": "2026-08-10T15:00:00Z",
+    "stellar_transactions": [],
+    "external_transaction_id": "E2EFX51",
+    "bank_ref": "AR-4H3KRFAK-8",
+    "customers": {
+     "sender": {
+      "id": "EXT-1"
+     },
+     "receiver": {
+      "id": "C1"
+     }
+    },
+    "travel_rule_ref": "TRP-FFFFFFFFFFF2"
+   }
+  ]
+ },
+ "chain": {},
+ "bank": {
+  "2026-08-10": [
+   {
+    "id": "B:fx49",
+    "account": "bank-b",
+    "direction": "debit",
+    "amount": "99510",
+    "valueDate": "2026-08-10",
+    "narrative": "SEPA CT AR-RFSPGD32-K CHUKWUEMEKA",
+    "endToEndId": "E2EFX49"
+   },
+   {
+    "id": "B:fx51",
+    "account": "bank-b",
+    "direction": "debit",
+    "amount": "198980",
+    "valueDate": "2026-08-10",
+    "narrative": "SEPA CT AR-4H3KRFAK-8 JOSE LUIS PEREZ",
+    "endToEndId": "E2EFX51"
+   }
+  ]
+ },
+ "expect": {
+  "proposal": "tx-fx-49",
+  "raised": "tx-fx-51"
+ }
+}

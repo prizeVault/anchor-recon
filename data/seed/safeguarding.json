@@ -1,0 +1,59 @@
+{
+  "currency": "EUR",
+  "safeguarding_accounts": [
+    "bank-a"
+  ],
+  "owed_states": [
+    {
+      "kind": "deposit",
+      "statuses": [
+        "pending_anchor",
+        "pending_stellar"
+      ],
+      "amount": "amountIn"
+    },
+    {
+      "kind": "withdrawal",
+      "statuses": [
+        "pending_anchor",
+        "pending_external"
+      ],
+      "amount": "amountOut"
+    },
+    {
+      "kind": "receive",
+      "statuses": [
+        "pending_receiver",
+        "pending_external"
+      ],
+      "amount": "amountOut"
+    }
+  ],
+  "include_open_reversals": true,
+  "allowed_debit_patterns": [
+    "^SWEEP TO ",
+    "^BANK CHARGES "
+  ],
+  "internal_credit_patterns": [
+    "^SWEEP FROM ",
+    "^INTEREST ",
+    "^SAFEGUARDING TOP-UP "
+  ],
+  "expected_accounts": [
+    "bank-a",
+    "bank-b"
+  ],
+  "stale_days": 3,
+  "hold_business_days": 1,
+  "travel_rule_threshold": "0",
+  "travel_rule_provider_patterns": [
+    "^TRP-[0-9A-F]{12}$"
+  ],
+  "holidays": [
+    "2026-08-31"
+  ],
+  "anchor_accounts": {
+    "receive": "GBCY3QWNSPQSPUNMKJFRAIGTUGGIWIVRAUTFMWWUSEAVCDU5SZPVFO6S",
+    "distribution": "GDHPL3GX7A5VHF4HEUUNV5LREZHAEC7IE5BL6Y4WVODTUJOEPXV2GNBJ"
+  }
+}

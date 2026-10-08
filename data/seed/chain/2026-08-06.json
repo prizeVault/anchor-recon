@@ -1,0 +1,463 @@
+{
+ "_links": {
+  "self": {
+   "href": "/accounts/GBCY3QWNSPQSPUNMKJFRAIGTUGGIWIVRAUTFMWWUSEAVCDU5SZPVFO6S/operations?join=transactions"
+  }
+ },
+ "_embedded": {
+  "records": [
+   {
+    "id": "249777413691965441",
+    "paging_token": "249777413691965441",
+    "transaction_successful": true,
+    "created_at": "2026-08-06T13:04:34Z",
+    "transaction_hash": "1a23cb9ff9cc24db1a3391880267222c9b15574c4e2ea08c400c44a6332cc48b",
+    "type": "payment",
+    "type_i": 1,
+    "source_account": "GDDS5PLMI6YPAHF2BS43TLGPS633EUMXIIGT7VWOUNMSTRENDLIIICPH",
+    "from": "GDDS5PLMI6YPAHF2BS43TLGPS633EUMXIIGT7VWOUNMSTRENDLIIICPH",
+    "to": "GBCY3QWNSPQSPUNMKJFRAIGTUGGIWIVRAUTFMWWUSEAVCDU5SZPVFO6S",
+    "asset_type": "credit_alphanum4",
+    "asset_code": "USDC",
+    "asset_issuer": "GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO",
+    "amount": "793.0000000",
+    "transaction": {
+     "hash": "1a23cb9ff9cc24db1a3391880267222c9b15574c4e2ea08c400c44a6332cc48b",
+     "ledger": 58155836,
+     "created_at": "2026-08-06T13:04:34Z",
+     "memo_type": "hash",
+     "memo": "e0Qpxbcx8EPU4GK8rI0umubjTXmw0BO0otn5Vca1R0w="
+    }
+   },
+   {
+    "id": "249777417987186689",
+    "paging_token": "249777417987186689",
+    "transaction_successful": true,
+    "created_at": "2026-08-06T15:00:40Z",
+    "transaction_hash": "57eea93364856701da55fdda52c43ff474cb2314cd6d8469f04beef546448efb",
+    "type": "payment",
+    "type_i": 1,
+    "source_account": "GDKFN5JFDMHJCW2VHUCPNJENXCO7SEU5ZBY3D5KVUX6K2C6PR5FYVJI3",
+    "from": "GDKFN5JFDMHJCW2VHUCPNJENXCO7SEU5ZBY3D5KVUX6K2C6PR5FYVJI3",
+    "to": "GBCY3QWNSPQSPUNMKJFRAIGTUGGIWIVRAUTFMWWUSEAVCDU5SZPVFO6S",
+    "asset_type": "credit_alphanum4",
+    "asset_code": "EURC",
+    "asset_issuer": "GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO",
+    "amount": "145.0000000",
+    "transaction": {
+     "hash": "57eea93364856701da55fdda52c43ff474cb2314cd6d8469f04beef546448efb",
+     "ledger": 58155837,
+     "created_at": "2026-08-06T15:00:40Z",
+     "memo_type": "id",
+     "memo": "404692"
+    }
+   },
+   {
+    "id": "249777422281682945",
+    "paging_token": "249777422281682945",
+    "transaction_successful": true,
+    "created_at": "2026-08-06T09:25:54Z",
+    "transaction_hash": "c1fe798e163e4a589ec264f42e2d79ebf5603749c0a1ee004af03d13a5de0d2f",
+    "type": "payment",
+    "type_i": 1,
+    "source_account": "GDK7KTNBZ467VL6TV5FCMKRVSYSJ6ZLTV6PVY2QDDAUNE34UN6WDAOCT",
+    "from": "GDK7KTNBZ467VL6TV5FCMKRVSYSJ6ZLTV6PVY2QDDAUNE34UN6WDAOCT",
+    "to": "GBCY3QWNSPQSPUNMKJFRAIGTUGGIWIVRAUTFMWWUSEAVCDU5SZPVFO6S",
+    "asset_type": "credit_alphanum4",
+    "asset_code": "EURC",
+    "asset_issuer": "GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO",
+    "amount": "121.3800000",
+    "transaction": {
+     "hash": "c1fe798e163e4a589ec264f42e2d79ebf5603749c0a1ee004af03d13a5de0d2f",
+     "ledger": 58155838,
+     "created_at": "2026-08-06T09:25:54Z",
+     "memo_type": "hash",
+     "memo": "0M9eNCIA/s6DLB06jNOGgVaAW6vwo5c+b3qo+ZWzVQQ="
+    }
+   },
+   {
+    "id": "249777426576580609",
+    "paging_token": "249777426576580609",
+    "transaction_successful": true,
+    "created_at": "2026-08-06T09:02:12Z",
+    "transaction_hash": "ca36ef24e7d9af087d85219e4ef2f5f3eee5a34b501dc39a1cecbe697b5a1281",
+    "type": "payment",
+    "type_i": 1,
+    "source_account": "GDKFN5JFDMHJCW2VHUCPNJENXCO7SEU5ZBY3D5KVUX6K2C6PR5FYVJI3",
+    "from": "GDKFN5JFDMHJCW2VHUCPNJENXCO7SEU5ZBY3D5KVUX6K2C6PR5FYVJI3",
+    "to": "GBCY3QWNSPQSPUNMKJFRAIGTUGGIWIVRAUTFMWWUSEAVCDU5SZPVFO6S",
+    "asset_type": "credit_alphanum4",
+    "asset_code": "EURC",
+    "asset_issuer": "GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO",
+    "amount": "363.3500000",
+    "transaction": {
+     "hash": "ca36ef24e7d9af087d85219e4ef2f5f3eee5a34b501dc39a1cecbe697b5a1281",
+     "ledger": 58155839,
+     "created_at": "2026-08-06T09:02:12Z",
+     "memo_type": "id",
+     "memo": "404693"
+    }
+   },
+   {
+    "id": "249777430871781377",
+    "paging_token": "249777430871781377",
+    "transaction_successful": true,
+    "created_at": "2026-08-06T16:15:14Z",
+    "transaction_hash": "b18875f3a14ede6866a9db1a8af549dc12e74c0151589d5754eb11435a6d36ec",
+    "type": "payment",
+    "type_i": 1,
+    "source_account": "GDNFAZGII7MM46JBRGH7E2OAEZJOUECXYR3MA7VT5OQUIC2TXVUHZOYY",
+    "from": "GDNFAZGII7MM46JBRGH7E2OAEZJOUECXYR3MA7VT5OQUIC2TXVUHZOYY",
+    "to": "GBCY3QWNSPQSPUNMKJFRAIGTUGGIWIVRAUTFMWWUSEAVCDU5SZPVFO6S",
+    "asset_type": "credit_alphanum4",
+    "asset_code": "USDC",
+    "asset_issuer": "GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO",
+    "amount": "610.2400000",
+    "transaction": {
+     "hash": "b18875f3a14ede6866a9db1a8af549dc12e74c0151589d5754eb11435a6d36ec",
+     "ledger": 58155840,
+     "created_at": "2026-08-06T16:15:14Z",
+     "memo_type": "id",
+     "memo": "404694"
+    }
+   },
+   {
+    "id": "249777435167047681",
+    "paging_token": "249777435167047681",
+    "transaction_successful": true,
+    "created_at": "2026-08-06T08:42:08Z",
+    "transaction_hash": "129f3e0b7c65c7cf8b7d53a71f2998b6857525a6681c93f740b0fc72cb7252ee",
+    "type": "payment",
+    "type_i": 1,
+    "source_account": "GBCKGREHKCZ5RAXCJNMSVQYISB3HMCYBJVO5EM5GSXGQ2LEFHOFWZQA7",
+    "from": "GBCKGREHKCZ5RAXCJNMSVQYISB3HMCYBJVO5EM5GSXGQ2LEFHOFWZQA7",
+    "to": "GBCY3QWNSPQSPUNMKJFRAIGTUGGIWIVRAUTFMWWUSEAVCDU5SZPVFO6S",
+    "asset_type": "credit_alphanum4",
+    "asset_code": "USDC",
+    "asset_issuer": "GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO",
+    "amount": "138.6600000",
+    "transaction": {
+     "hash": "129f3e0b7c65c7cf8b7d53a71f2998b6857525a6681c93f740b0fc72cb7252ee",
+     "ledger": 58155841,
+     "created_at": "2026-08-06T08:42:08Z",
+     "memo_type": "hash",
+     "memo": "cGljT7BO7dRj1LMJKja2OTqHxMu8kqboien7xNhzBdU="
+    }
+   },
+   {
+    "id": "249777439462006785",
+    "paging_token": "249777439462006785",
+    "transaction_successful": true,
+    "created_at": "2026-08-06T08:18:31Z",
+    "transaction_hash": "fd31cdd05c5992af44c08f5802e11397c7d0029e397d557c968236d03bcce1d4",
+    "type": "payment",
+    "type_i": 1,
+    "source_account": "GDEGVARA4YD7KM5XY6YQL7CHRXXNUN5S37ODPFN2GZAKCGKP4SWFC2V5",
+    "from": "GDEGVARA4YD7KM5XY6YQL7CHRXXNUN5S37ODPFN2GZAKCGKP4SWFC2V5",
+    "to": "GBCY3QWNSPQSPUNMKJFRAIGTUGGIWIVRAUTFMWWUSEAVCDU5SZPVFO6S",
+    "asset_type": "credit_alphanum4",
+    "asset_code": "EURC",
+    "asset_issuer": "GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO",
+    "amount": "204.8400000",
+    "transaction": {
+     "hash": "fd31cdd05c5992af44c08f5802e11397c7d0029e397d557c968236d03bcce1d4",
+     "ledger": 58155842,
+     "created_at": "2026-08-06T08:18:31Z",
+     "memo_type": "id",
+     "memo": "404695"
+    }
+   },
+   {
+    "id": "249777443756797953",
+    "paging_token": "249777443756797953",
+    "transaction_successful": true,
+    "created_at": "2026-08-06T14:38:09Z",
+    "transaction_hash": "1f52ea82f4775c1f92dc6c76d2e0986b4a42f4b93404b54b0fc81d184280874f",
+    "type": "payment",
+    "type_i": 1,
+    "source_account": "GCFMM2SCCQTJ3AMXA6TMWJMH2LCPDB75PT52WMNNPO6TPPBESNRXKMFF",
+    "from": "GCFMM2SCCQTJ3AMXA6TMWJMH2LCPDB75PT52WMNNPO6TPPBESNRXKMFF",
+    "to": "GBCY3QWNSPQSPUNMKJFRAIGTUGGIWIVRAUTFMWWUSEAVCDU5SZPVFO6S",
+    "asset_type": "credit_alphanum4",
+    "asset_code": "EURC",
+    "asset_issuer": "GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO",
+    "amount": "83.7200000",
+    "transaction": {
+     "hash": "1f52ea82f4775c1f92dc6c76d2e0986b4a42f4b93404b54b0fc81d184280874f",
+     "ledger": 58155843,
+     "created_at": "2026-08-06T14:38:09Z",
+     "memo_type": "text",
+     "memo": "WD404696"
+    }
+   },
+   {
+    "id": "249777448051388417",
+    "paging_token": "249777448051388417",
+    "transaction_successful": true,
+    "created_at": "2026-08-06T14:02:08Z",
+    "transaction_hash": "2d742476c2eb2910881411cdbb0db488b663efcd57e09d2e9de72be35c1ad1ff",
+    "type": "payment",
+    "type_i": 1,
+    "source_account": "GDDS5PLMI6YPAHF2BS43TLGPS633EUMXIIGT7VWOUNMSTRENDLIIICPH",
+    "from": "GDDS5PLMI6YPAHF2BS43TLGPS633EUMXIIGT7VWOUNMSTRENDLIIICPH",
+    "to": "GBCY3QWNSPQSPUNMKJFRAIGTUGGIWIVRAUTFMWWUSEAVCDU5SZPVFO6S",
+    "asset_type": "credit_alphanum4",
+    "asset_code": "USDC",
+    "asset_issuer": "GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO",
+    "amount": "186.0000000",
+    "transaction": {
+     "hash": "2d742476c2eb2910881411cdbb0db488b663efcd57e09d2e9de72be35c1ad1ff",
+     "ledger": 58155844,
+     "created_at": "2026-08-06T14:02:08Z",
+     "memo_type": "hash",
+     "memo": "DW0bcYDQCuCFqDVbpgXdBJcpnSMFfc7pxgbBVMPvqIk="
+    }
+   },
+   {
+    "id": "249777452347031553",
+    "paging_token": "249777452347031553",
+    "transaction_successful": true,
+    "created_at": "2026-08-06T15:49:12Z",
+    "transaction_hash": "c68a484a42fea2851fbdf0b8c1eea3f5b2ed41cb9866ffdeb698ff5d3b6021dc",
+    "type": "payment",
+    "type_i": 1,
+    "source_account": "GDDS5PLMI6YPAHF2BS43TLGPS633EUMXIIGT7VWOUNMSTRENDLIIICPH",
+    "from": "GDDS5PLMI6YPAHF2BS43TLGPS633EUMXIIGT7VWOUNMSTRENDLIIICPH",
+    "to": "GBCY3QWNSPQSPUNMKJFRAIGTUGGIWIVRAUTFMWWUSEAVCDU5SZPVFO6S",
+    "asset_type": "credit_alphanum4",
+    "asset_code": "USDC",
+    "asset_issuer": "GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO",
+    "amount": "905.7400000",
+    "transaction": {
+     "hash": "c68a484a42fea2851fbdf0b8c1eea3f5b2ed41cb9866ffdeb698ff5d3b6021dc",
+     "ledger": 58155845,
+     "created_at": "2026-08-06T15:49:12Z",
+     "memo_type": "id",
+     "memo": "404697"
+    }
+   },
+   {
+    "id": "249777456641216513",
+    "paging_token": "249777456641216513",
+    "transaction_successful": true,
+    "created_at": "2026-08-06T13:51:40Z",
+    "transaction_hash": "6fada119445077e7a8d1476be4dfe2117415fd60f48131c94cb8681212eb2c92",
+    "type": "payment",
+    "type_i": 1,
+    "source_account": "GBCKGREHKCZ5RAXCJNMSVQYISB3HMCYBJVO5EM5GSXGQ2LEFHOFWZQA7",
+    "from": "GBCKGREHKCZ5RAXCJNMSVQYISB3HMCYBJVO5EM5GSXGQ2LEFHOFWZQA7",
+    "to": "GBCY3QWNSPQSPUNMKJFRAIGTUGGIWIVRAUTFMWWUSEAVCDU5SZPVFO6S",
+    "asset_type": "credit_alphanum4",
+    "asset_code": "USDC",
+    "asset_issuer": "GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO",
+    "amount": "1885.0400000",
+    "transaction": {
+     "hash": "6fada119445077e7a8d1476be4dfe2117415fd60f48131c94cb8681212eb2c92",
+     "ledger": 58155846,
+     "created_at": "2026-08-06T13:51:40Z",
+     "memo_type": "id",
+     "memo": "404698"
+    }
+   },
+   {
+    "id": "249777460936822785",
+    "paging_token": "249777460936822785",
+    "transaction_successful": true,
+    "created_at": "2026-08-06T14:12:46Z",
+    "transaction_hash": "8e89cc9fb23624ad6f0cbb824a746373b183967494ce037b252ecbc52f0b6e84",
+    "type": "payment",
+    "type_i": 1,
+    "source_account": "GDDS5PLMI6YPAHF2BS43TLGPS633EUMXIIGT7VWOUNMSTRENDLIIICPH",
+    "from": "GDDS5PLMI6YPAHF2BS43TLGPS633EUMXIIGT7VWOUNMSTRENDLIIICPH",
+    "to": "GBCY3QWNSPQSPUNMKJFRAIGTUGGIWIVRAUTFMWWUSEAVCDU5SZPVFO6S",
+    "asset_type": "credit_alphanum4",
+    "asset_code": "USDC",
+    "asset_issuer": "GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO",
+    "amount": "175.2000000",
+    "transaction": {
+     "hash": "8e89cc9fb23624ad6f0cbb824a746373b183967494ce037b252ecbc52f0b6e84",
+     "ledger": 58155847,
+     "created_at": "2026-08-06T14:12:46Z",
+     "memo_type": "hash",
+     "memo": "02LnPmw6/ojo2TZe5AdpQU50GwLPXD9/qL3HM2Na/Ps="
+    }
+   },
+   {
+    "id": "249777465231925249",
+    "paging_token": "249777465231925249",
+    "transaction_successful": true,
+    "created_at": "2026-08-06T10:46:59Z",
+    "transaction_hash": "d18d10cb43e1223047f64ef62da4d118a3e14ebda9aa88779affd510a216485d",
+    "type": "create_claimable_balance",
+    "type_i": 14,
+    "source_account": "GDHPL3GX7A5VHF4HEUUNV5LREZHAEC7IE5BL6Y4WVODTUJOEPXV2GNBJ",
+    "asset": "EURC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO",
+    "amount": "239.7400000",
+    "claimants": [
+     {
+      "destination": "GCPP2OOSO7BYH4YUL3RJ2HVZH2I2BUNRLNNG7GGGS4J546EEGBMFIG2T",
+      "predicate": {
+       "unconditional": true
+      }
+     }
+    ],
+    "balance_id": "000000008ab365829f4a4fcc83bfb365b6738eb1e7b176c03228f4fe6ca7517792bd6398",
+    "transaction": {
+     "hash": "d18d10cb43e1223047f64ef62da4d118a3e14ebda9aa88779affd510a216485d",
+     "ledger": 58155848,
+     "created_at": "2026-08-06T10:46:59Z",
+     "memo_type": "hash",
+     "memo": "NLK4hM5REWxef14aXACuxCQtAf9ji30SmZkTdG8WJ7M="
+    }
+   },
+   {
+    "id": "249777473821175809",
+    "paging_token": "249777473821175809",
+    "transaction_successful": true,
+    "created_at": "2026-08-06T11:19:21Z",
+    "transaction_hash": "535174f3ab789e361f90fd6eb6eb2da145491a2356a983a6559f88625055f362",
+    "type": "create_claimable_balance",
+    "type_i": 14,
+    "source_account": "GDHPL3GX7A5VHF4HEUUNV5LREZHAEC7IE5BL6Y4WVODTUJOEPXV2GNBJ",
+    "asset": "EURC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO",
+    "amount": "1216.7600000",
+    "claimants": [
+     {
+      "destination": "GB6LURCNQTJKFF7OXPRBE4YTEAIH3X63ESBHDMJY6AWLXYKBNRHHBJIU",
+      "predicate": {
+       "unconditional": true
+      }
+     }
+    ],
+    "balance_id": "000000008a869c4226e4a8cd3c2da90abbe5ad03587654ccfce62789c7ccedc7fe7adf0b",
+    "transaction": {
+     "hash": "535174f3ab789e361f90fd6eb6eb2da145491a2356a983a6559f88625055f362",
+     "ledger": 58155850,
+     "created_at": "2026-08-06T11:19:21Z",
+     "memo_type": "hash",
+     "memo": "JpIrD1dzObsCovFkK1CQnxbzUu7RYWw0eClVNFFm2NQ="
+    }
+   },
+   {
+    "id": "249777482411327489",
+    "paging_token": "249777482411327489",
+    "transaction_successful": true,
+    "created_at": "2026-08-06T16:44:23Z",
+    "transaction_hash": "b2f9f30ff5a6afcdcb630062e5bddd0f85ca7a5d9dd6c36e82a1b84353c2367f",
+    "type": "payment",
+    "type_i": 1,
+    "source_account": "GDNFAZGII7MM46JBRGH7E2OAEZJOUECXYR3MA7VT5OQUIC2TXVUHZOYY",
+    "from": "GDNFAZGII7MM46JBRGH7E2OAEZJOUECXYR3MA7VT5OQUIC2TXVUHZOYY",
+    "to": "GBCY3QWNSPQSPUNMKJFRAIGTUGGIWIVRAUTFMWWUSEAVCDU5SZPVFO6S",
+    "asset_type": "credit_alphanum4",
+    "asset_code": "USDC",
+    "asset_issuer": "GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO",
+    "amount": "1912.0000000",
+    "transaction": {
+     "hash": "b2f9f30ff5a6afcdcb630062e5bddd0f85ca7a5d9dd6c36e82a1b84353c2367f",
+     "ledger": 58155852,
+     "created_at": "2026-08-06T16:44:23Z",
+     "memo_type": "hash",
+     "memo": "1dkYSXmY95vPkCtw7ybOUJsS0X/k0GpZut2RaNP9i3g="
+    }
+   },
+   {
+    "id": "249777486706675713",
+    "paging_token": "249777486706675713",
+    "transaction_successful": true,
+    "created_at": "2026-08-06T14:08:46Z",
+    "transaction_hash": "db7b888dbd98bb2d432b80375fe01853d9ee252c3057e3fd6e635fa82ce59031",
+    "type": "create_claimable_balance",
+    "type_i": 14,
+    "source_account": "GDHPL3GX7A5VHF4HEUUNV5LREZHAEC7IE5BL6Y4WVODTUJOEPXV2GNBJ",
+    "asset": "EURC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO",
+    "amount": "290.7800000",
+    "claimants": [
+     {
+      "destination": "GAPIDXLUGT46EP2YUGI2ZRHK33UD2P7YHGTSKOKID7LENX4QJLMLENIL",
+      "predicate": {
+       "unconditional": true
+      }
+     }
+    ],
+    "balance_id": "000000008f38d67344572b1087f1ca64b9828a879b81952ea9660e5316e6600be263baac",
+    "transaction": {
+     "hash": "db7b888dbd98bb2d432b80375fe01853d9ee252c3057e3fd6e635fa82ce59031",
+     "ledger": 58155853,
+     "created_at": "2026-08-06T14:08:46Z",
+     "memo_type": "hash",
+     "memo": "RVIu9O04L/0U/50qGNewJsXUeCp1nTBQUDorLjnEAZY="
+    }
+   },
+   {
+    "id": "249777491001356289",
+    "paging_token": "249777491001356289",
+    "transaction_successful": true,
+    "created_at": "2026-08-06T13:57:39Z",
+    "transaction_hash": "a0bf8afef951981d47302d9d203a1653fe4d430411eb263c02f8c347a9d75101",
+    "type": "payment",
+    "type_i": 1,
+    "source_account": "GBCKGREHKCZ5RAXCJNMSVQYISB3HMCYBJVO5EM5GSXGQ2LEFHOFWZQA7",
+    "from": "GBCKGREHKCZ5RAXCJNMSVQYISB3HMCYBJVO5EM5GSXGQ2LEFHOFWZQA7",
+    "to": "GBCY3QWNSPQSPUNMKJFRAIGTUGGIWIVRAUTFMWWUSEAVCDU5SZPVFO6S",
+    "asset_type": "credit_alphanum4",
+    "asset_code": "USDC",
+    "asset_issuer": "GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO",
+    "amount": "305.6700000",
+    "transaction": {
+     "hash": "a0bf8afef951981d47302d9d203a1653fe4d430411eb263c02f8c347a9d75101",
+     "ledger": 58155854,
+     "created_at": "2026-08-06T13:57:39Z",
+     "memo_type": "hash",
+     "memo": "p/bbqWUmDbJvNGS0Th00XmkF7xby4n5zO8wRRbzBdvI="
+    }
+   },
+   {
+    "id": "249777495296286721",
+    "paging_token": "249777495296286721",
+    "transaction_successful": true,
+    "created_at": "2026-08-06T09:34:41Z",
+    "transaction_hash": "06685892ee65f1512dccdee91c997f79679de7b32b280ea40e10bef585a7f35d",
+    "type": "payment",
+    "type_i": 1,
+    "source_account": "GDDS5PLMI6YPAHF2BS43TLGPS633EUMXIIGT7VWOUNMSTRENDLIIICPH",
+    "from": "GDDS5PLMI6YPAHF2BS43TLGPS633EUMXIIGT7VWOUNMSTRENDLIIICPH",
+    "to": "GBCY3QWNSPQSPUNMKJFRAIGTUGGIWIVRAUTFMWWUSEAVCDU5SZPVFO6S",
+    "asset_type": "credit_alphanum4",
+    "asset_code": "USDC",
+    "asset_issuer": "GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO",
+    "amount": "468.0900000",
+    "transaction": {
+     "hash": "06685892ee65f1512dccdee91c997f79679de7b32b280ea40e10bef585a7f35d",
+     "ledger": 58155855,
+     "created_at": "2026-08-06T09:34:41Z",
+     "memo_type": "id",
+     "memo": "404699"
+    }
+   },
+   {
+    "id": "249777499591110657",
+    "paging_token": "249777499591110657",
+    "transaction_successful": true,
+    "created_at": "2026-08-06T11:24:02Z",
+    "transaction_hash": "3b2e8953914c9dd830409ff520987f2cdedb970b56191bb49d7fa05585d343be",
+    "type": "payment",
+    "type_i": 1,
+    "source_account": "GDHPL3GX7A5VHF4HEUUNV5LREZHAEC7IE5BL6Y4WVODTUJOEPXV2GNBJ",
+    "from": "GDHPL3GX7A5VHF4HEUUNV5LREZHAEC7IE5BL6Y4WVODTUJOEPXV2GNBJ",
+    "to": "GCPP2OOSO7BYH4YUL3RJ2HVZH2I2BUNRLNNG7GGGS4J546EEGBMFIG2T",
+    "asset_type": "credit_alphanum4",
+    "asset_code": "EURC",
+    "asset_issuer": "GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO",
+    "amount": "249.7000000",
+    "transaction": {
+     "hash": "3b2e8953914c9dd830409ff520987f2cdedb970b56191bb49d7fa05585d343be",
+     "ledger": 58155856,
+     "created_at": "2026-08-06T11:24:02Z",
+     "memo_type": "hash",
+     "memo": "pNTmxzihL2FwjgCOr949eIHfb2SLFKw1bzp942K+OpE="
+    }
+   }
+  ]
+ }
+}

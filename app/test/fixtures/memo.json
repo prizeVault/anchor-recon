@@ -1,0 +1,203 @@
+{
+ "name": "memo",
+ "days": [
+  "2026-08-10"
+ ],
+ "customers": [
+  {
+   "id": "C1",
+   "name": "José Luis Pérez García"
+  },
+  {
+   "id": "C2",
+   "name": "Małgorzata Wiśniewska"
+  },
+  {
+   "id": "C3",
+   "name": "Chukwuemeka Obinna Nwankwo-Eze Okafor"
+  },
+  {
+   "id": "C4",
+   "name": "Aoife Fitzgerald"
+  },
+  {
+   "id": "C5",
+   "name": "Søren Østergaard"
+  }
+ ],
+ "platform": {
+  "2026-08-10": [
+   {
+    "id": "tx-memo-text",
+    "sep": "6",
+    "kind": "withdrawal",
+    "status": "pending_anchor",
+    "amount_in": {
+     "amount": "51.00",
+     "asset": "stellar:EURC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+    },
+    "amount_out": {
+     "amount": "50.00",
+     "asset": "iso4217:EUR"
+    },
+    "amount_fee": {
+     "amount": "1.00",
+     "asset": "stellar:EURC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+    },
+    "started_at": "2026-08-10T09:00:00Z",
+    "updated_at": "2026-08-10T15:00:00Z",
+    "memo": "WD12345",
+    "memo_type": "text",
+    "stellar_transactions": [],
+    "bank_ref": "AR-0S2C3GXR-1",
+    "customers": {
+     "sender": {
+      "id": "C4"
+     }
+    }
+   },
+   {
+    "id": "tx-memo-hash",
+    "sep": "31",
+    "kind": "receive",
+    "status": "pending_receiver",
+    "amount_in": {
+     "amount": "300.00",
+     "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+    },
+    "amount_out": {
+     "amount": "271.23",
+     "asset": "iso4217:EUR"
+    },
+    "amount_fee": {
+     "amount": "1.00",
+     "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+    },
+    "started_at": "2026-08-10T09:00:00Z",
+    "updated_at": "2026-08-10T15:00:00Z",
+    "memo": "d82c8844974958c628cc31fef7950cb4c78d6351680cf63b29ed798ecd64ef0a",
+    "memo_type": "hash",
+    "stellar_transactions": [],
+    "bank_ref": "AR-87XMEHFN-S",
+    "customers": {
+     "sender": {
+      "id": "EXT-1"
+     },
+     "receiver": {
+      "id": "C5"
+     }
+    },
+    "travel_rule_ref": "TRP-ABCDEF123456"
+   },
+   {
+    "id": "tx-memo-mux",
+    "sep": "31",
+    "kind": "receive",
+    "status": "pending_receiver",
+    "amount_in": {
+     "amount": "120.00",
+     "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+    },
+    "amount_out": {
+     "amount": "108.50",
+     "asset": "iso4217:EUR"
+    },
+    "amount_fee": {
+     "amount": "1.00",
+     "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+    },
+    "started_at": "2026-08-10T09:00:00Z",
+    "updated_at": "2026-08-10T15:00:00Z",
+    "memo": "900017",
+    "memo_type": "id",
+    "stellar_transactions": [],
+    "bank_ref": "AR-GSXSZMQX-K",
+    "customers": {
+     "sender": {
+      "id": "EXT-1"
+     },
+     "receiver": {
+      "id": "C1"
+     }
+    },
+    "travel_rule_ref": "TRP-ABCDEF654321"
+   }
+  ]
+ },
+ "chain": {
+  "2026-08-10": [
+   {
+    "id": "249537599897612289",
+    "paging_token": "249537599897612289",
+    "transaction_successful": true,
+    "created_at": "2026-08-10T12:00:00Z",
+    "transaction_hash": "fdc0e60be09b45a7fedc625db6f1c387d4ebc8b395adedeb62fabe720acf6deb",
+    "type": "payment",
+    "source_account": "GDMAHWTFSDDWZWHWFJFJMEN5WSIHSBFEF6IZK6I3YG5JKPIKLFR3HWYS",
+    "transaction": {
+     "hash": "fdc0e60be09b45a7fedc625db6f1c387d4ebc8b395adedeb62fabe720acf6deb",
+     "created_at": "2026-08-10T12:00:00Z",
+     "memo_type": "text",
+     "memo": "WD12345"
+    },
+    "from": "GDMAHWTFSDDWZWHWFJFJMEN5WSIHSBFEF6IZK6I3YG5JKPIKLFR3HWYS",
+    "to": "GBCY3QWNSPQSPUNMKJFRAIGTUGGIWIVRAUTFMWWUSEAVCDU5SZPVFO6S",
+    "asset_type": "credit_alphanum4",
+    "asset_code": "EURC",
+    "asset_issuer": "GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO",
+    "amount": "51.0000000"
+   },
+   {
+    "id": "249537599897616385",
+    "paging_token": "249537599897616385",
+    "transaction_successful": true,
+    "created_at": "2026-08-10T12:00:00Z",
+    "transaction_hash": "cee583812e661b4f08269d82e9edc34f7cb7fb2a9424f7f158ba5af560315805",
+    "type": "payment",
+    "source_account": "GDVLJOCLVC7AGYO5PZXDRD5P5G6B5KVZJTHVEMMQWIJXHAFCQAMWXTRQ",
+    "transaction": {
+     "hash": "cee583812e661b4f08269d82e9edc34f7cb7fb2a9424f7f158ba5af560315805",
+     "created_at": "2026-08-10T12:00:00Z",
+     "memo_type": "hash",
+     "memo": "2CyIRJdJWMYozDH+95UMtMeNY1FoDPY7Ke15js1k7wo="
+    },
+    "from": "GDVLJOCLVC7AGYO5PZXDRD5P5G6B5KVZJTHVEMMQWIJXHAFCQAMWXTRQ",
+    "to": "GBCY3QWNSPQSPUNMKJFRAIGTUGGIWIVRAUTFMWWUSEAVCDU5SZPVFO6S",
+    "asset_type": "credit_alphanum4",
+    "asset_code": "USDC",
+    "asset_issuer": "GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO",
+    "amount": "300.0000000"
+   },
+   {
+    "id": "249537599897620481",
+    "paging_token": "249537599897620481",
+    "transaction_successful": true,
+    "created_at": "2026-08-10T12:00:00Z",
+    "transaction_hash": "9d4fc4e7e9e6c3164fd187c35d94125dbf1753c3e7b83a83ab112dbc74890170",
+    "type": "payment",
+    "source_account": "GDVLJOCLVC7AGYO5PZXDRD5P5G6B5KVZJTHVEMMQWIJXHAFCQAMWXTRQ",
+    "transaction": {
+     "hash": "9d4fc4e7e9e6c3164fd187c35d94125dbf1753c3e7b83a83ab112dbc74890170",
+     "created_at": "2026-08-10T12:00:00Z",
+     "memo_type": "none"
+    },
+    "from": "GDVLJOCLVC7AGYO5PZXDRD5P5G6B5KVZJTHVEMMQWIJXHAFCQAMWXTRQ",
+    "to": "GBCY3QWNSPQSPUNMKJFRAIGTUGGIWIVRAUTFMWWUSEAVCDU5SZPVFO6S",
+    "asset_type": "credit_alphanum4",
+    "asset_code": "USDC",
+    "asset_issuer": "GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO",
+    "amount": "120.0000000",
+    "to_muxed": "MBCY3QWNSPQSPUNMKJFRAIGTUGGIWIVRAUTFMWWUSEAVCDU5SZPVEAAAAAAAADN3WGB7K",
+    "to_muxed_id": "900017"
+   }
+  ]
+ },
+ "bank": {},
+ "expect": {
+  "rules": [
+   "memo",
+   "memo",
+   "muxed_id"
+  ]
+ }
+}

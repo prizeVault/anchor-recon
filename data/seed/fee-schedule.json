@@ -1,0 +1,18 @@
+{
+  "currency": "EUR",
+  "fee_abs": "200",
+  "fee_bps": 25,
+  "bank_charges": [
+    {
+      "code": "SEPA_IN",
+      "amount": "35",
+      "description": "SEPA incoming credit charge (EUR 0.35)"
+    },
+    {
+      "code": "SEPA_OUT",
+      "amount": "25",
+      "description": "SEPA outgoing payment charge (EUR 0.25)"
+    }
+  ],
+  "fx_band_bps": 50
+}

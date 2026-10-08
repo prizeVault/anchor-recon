@@ -1,0 +1,756 @@
+{
+  "generatedBy": "seed anchor-recon/sim-2026-08",
+  "simulated": true,
+  "calendar": {
+    "start": "2026-08-03",
+    "end": "2026-09-01",
+    "holidays": [
+      "2026-08-31"
+    ],
+    "reconciliationDays": [
+      "2026-08-03",
+      "2026-08-04",
+      "2026-08-05",
+      "2026-08-06",
+      "2026-08-07",
+      "2026-08-10",
+      "2026-08-11",
+      "2026-08-12",
+      "2026-08-13",
+      "2026-08-14",
+      "2026-08-17",
+      "2026-08-18",
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-24",
+      "2026-08-25",
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-09-01"
+    ]
+  },
+  "counts": {
+    "platform": 400,
+    "bySep": {
+      "sep6": 60,
+      "sep24": 180,
+      "sep31": 160
+    },
+    "chainOps": 408,
+    "bankA": 179,
+    "bankB": 282,
+    "customers": 220,
+    "travelLog": 157
+  },
+  "planted": [
+    {
+      "id": "K01",
+      "type": "PLATFORM_NO_CHAIN_LEG",
+      "day": "2026-08-05",
+      "refs": [
+        "ptx:ef0db2cf-c50b-44b1-a1fc-9c261f5fe823"
+      ]
+    },
+    {
+      "id": "K02",
+      "type": "DUPLICATE_CHAIN_PAYMENT",
+      "day": "2026-08-05",
+      "refs": [
+        "ptx:dd5404b3-3ed2-4600-ad79-3e47fc624010",
+        "op:249777353562267649",
+        "op:249777357857640449"
+      ]
+    },
+    {
+      "id": "K03",
+      "type": "SHORT_PAYOUT",
+      "day": "2026-08-07",
+      "refs": [
+        "ptx:d31cb8f2-72cb-4742-ae98-1c6206fc2e32",
+        "bank:bank-b:SIMB-20260807:0011"
+      ]
+    },
+    {
+      "id": "K04",
+      "type": "WRONG_MEMO",
+      "day": "2026-08-11",
+      "refs": [
+        "op:251298064043016193"
+      ]
+    },
+    {
+      "id": "K05",
+      "type": "UNMATCHED_BANK_CREDIT",
+      "day": "2026-08-12",
+      "refs": [
+        "bank:bank-a:SIMA-20260812:SIMA202608120013"
+      ]
+    },
+    {
+      "id": "K06",
+      "type": "DUPLICATE_PAYOUT",
+      "day": "2026-08-19",
+      "refs": [
+        "ptx:a905355d-44e3-4848-a733-919f9a6da53e",
+        "bank:bank-b:SIMB-20260819:0005",
+        "bank:bank-b:SIMB-20260819:0006"
+      ]
+    },
+    {
+      "id": "K07",
+      "type": "REVERSAL_OPEN",
+      "day": "2026-08-25",
+      "refs": [
+        "ptx:5b4afb83-7ed9-4bcb-a9b3-c65738357bdc",
+        "bank:bank-b:SIMB-20260825:0001"
+      ]
+    },
+    {
+      "id": "K08",
+      "type": "STALE_PENDING",
+      "day": "2026-08-10",
+      "refs": [
+        "ptx:59f11a97-4fc2-43b6-ae04-6b8d87c2293d"
+      ]
+    },
+    {
+      "id": "K09",
+      "type": "AMOUNT_MISMATCH",
+      "day": "2026-08-20",
+      "refs": [
+        "ptx:228ddb03-ff63-40d1-a0b0-4011b988d91d",
+        "bank:bank-a:SIMA-20260820:SIMA202608200001"
+      ]
+    },
+    {
+      "id": "K10",
+      "type": "UNMATCHED_CHAIN_IN",
+      "day": "2026-08-26",
+      "refs": [
+        "op:251298068337651713"
+      ]
+    },
+    {
+      "id": "K11",
+      "type": "NON_CUSTOMER_DEBIT_FROM_SAFEGUARDING",
+      "day": "2026-08-18",
+      "refs": [
+        "bank:bank-a:SIMA-20260818:SIMA202608180007"
+      ]
+    },
+    {
+      "id": "K12",
+      "type": "STATUS_MISMATCH",
+      "day": "2026-08-10",
+      "refs": [
+        "ptx:70dc711b-20fa-4cf5-a075-35121d7f24c9"
+      ]
+    },
+    {
+      "id": "T01",
+      "type": "TRAVEL_RULE_MISSING",
+      "subReason": "EMPTY",
+      "day": "2026-08-06",
+      "refs": [
+        "ptx:1ebfc108-cae4-41b4-a675-0b59e243ab85"
+      ]
+    },
+    {
+      "id": "T02",
+      "type": "TRAVEL_RULE_MISSING",
+      "subReason": "NOT_IN_LOG",
+      "day": "2026-08-13",
+      "refs": [
+        "ptx:3c06dfcd-62c2-4234-aaa9-46beba4121ae"
+      ]
+    },
+    {
+      "id": "T03",
+      "type": "TRAVEL_RULE_MISSING",
+      "subReason": "MALFORMED",
+      "day": "2026-08-25",
+      "refs": [
+        "ptx:0e11a24c-3f5e-4224-aca7-86ccb3510efb"
+      ]
+    }
+  ],
+  "hard": {
+    "split": [
+      {
+        "platformId": "fa6d95d8-4e8e-4afc-a61a-7f28dd8d95b5",
+        "refs": [
+          "ptx:fa6d95d8-4e8e-4afc-a61a-7f28dd8d95b5",
+          "bank:bank-a:SIMA-20260804:SIMA202608040001",
+          "bank:bank-a:SIMA-20260804:SIMA202608040002",
+          "op:249777271958372353"
+        ],
+        "expectedKind": "split"
+      },
+      {
+        "platformId": "87719d71-22ce-4438-ac66-12fe229836c3",
+        "refs": [
+          "ptx:87719d71-22ce-4438-ac66-12fe229836c3",
+          "bank:bank-a:SIMA-20260807:SIMA202608070001",
+          "bank:bank-a:SIMA-20260810:SIMA202608100001",
+          "op:249777503886401537"
+        ],
+        "expectedKind": "split"
+      },
+      {
+        "platformId": "317c9ee7-d9ad-4893-abef-2861f3f9570c",
+        "refs": [
+          "ptx:317c9ee7-d9ad-4893-abef-2861f3f9570c",
+          "bank:bank-a:SIMA-20260813:SIMA202608130003",
+          "bank:bank-a:SIMA-20260813:SIMA202608130004",
+          "bank:bank-a:SIMA-20260813:SIMA202608130005",
+          "op:249952588228415489"
+        ],
+        "expectedKind": "split"
+      },
+      {
+        "platformId": "8cac46da-78dd-44a5-aa10-13cf1e6951ae",
+        "refs": [
+          "ptx:8cac46da-78dd-44a5-aa10-13cf1e6951ae",
+          "bank:bank-a:SIMA-20260817:SIMA202608170001",
+          "bank:bank-a:SIMA-20260817:SIMA202608170002",
+          "op:250182506417762305"
+        ],
+        "expectedKind": "split"
+      },
+      {
+        "platformId": "30f9e4b3-ae5f-41c9-a744-86d7bb039959",
+        "refs": [
+          "ptx:30f9e4b3-ae5f-41c9-a744-86d7bb039959",
+          "bank:bank-a:SIMA-20260821:SIMA202608210001",
+          "bank:bank-a:SIMA-20260821:SIMA202608210002",
+          "bank:bank-a:SIMA-20260824:SIMA202608240001",
+          "op:250684828612341761"
+        ],
+        "expectedKind": "split"
+      },
+      {
+        "platformId": "79a429de-bcaa-4c1d-af6e-afba4c54115a",
+        "refs": [
+          "ptx:79a429de-bcaa-4c1d-af6e-afba4c54115a",
+          "bank:bank-a:SIMA-20260826:SIMA202608260001",
+          "bank:bank-a:SIMA-20260826:SIMA202608260002",
+          "op:250840250594095105"
+        ],
+        "expectedKind": "split"
+      }
+    ],
+    "feeDiff": [
+      {
+        "platformId": "b3c488d4-74c2-4a50-ad4a-3b2d4f1514b1",
+        "refs": [
+          "ptx:b3c488d4-74c2-4a50-ad4a-3b2d4f1514b1",
+          "bank:bank-a:SIMA-20260803:SIMA202608030001",
+          "op:249110276422025217"
+        ],
+        "expectedKind": "fee_diff"
+      },
+      {
+        "platformId": "b2e2607a-6c11-4290-a521-a5851024c004",
+        "refs": [
+          "ptx:b2e2607a-6c11-4290-a521-a5851024c004",
+          "bank:bank-a:SIMA-20260803:SIMA202608030002",
+          "op:249146384211890177"
+        ],
+        "expectedKind": "fee_diff"
+      },
+      {
+        "platformId": "35ff67b4-4a6f-46f2-acd4-59e284bb9836",
+        "refs": [
+          "ptx:35ff67b4-4a6f-46f2-acd4-59e284bb9836",
+          "bank:bank-a:SIMA-20260803:SIMA202608030003",
+          "op:249777190354014209"
+        ],
+        "expectedKind": "fee_diff"
+      },
+      {
+        "platformId": "2eaf20bf-7d42-48e4-af01-a44771155cda",
+        "refs": [
+          "ptx:2eaf20bf-7d42-48e4-af01-a44771155cda",
+          "bank:bank-a:SIMA-20260803:SIMA202608030004",
+          "op:249777203238354945"
+        ],
+        "expectedKind": "fee_diff"
+      },
+      {
+        "platformId": "1cb33407-5dc1-421c-a19e-5aec2a452b79",
+        "refs": [
+          "ptx:1cb33407-5dc1-421c-a19e-5aec2a452b79",
+          "bank:bank-a:SIMA-20260803:SIMA202608030005",
+          "op:249777211828453377"
+        ],
+        "expectedKind": "fee_diff"
+      },
+      {
+        "platformId": "c5c0d2cd-503b-4ac6-a781-44f0723d73b7",
+        "refs": [
+          "ptx:c5c0d2cd-503b-4ac6-a781-44f0723d73b7",
+          "bank:bank-a:SIMA-20260803:SIMA202608030006",
+          "op:249777216123166721"
+        ],
+        "expectedKind": "fee_diff"
+      },
+      {
+        "platformId": "aa2e7441-2747-4565-a373-f6458b88fac2",
+        "refs": [
+          "ptx:aa2e7441-2747-4565-a373-f6458b88fac2",
+          "bank:bank-a:SIMA-20260803:SIMA202608030007",
+          "op:249777237598265345"
+        ],
+        "expectedKind": "fee_diff"
+      },
+      {
+        "platformId": "869c85e8-a2dc-459b-ab5e-ab11826c695b",
+        "refs": [
+          "ptx:869c85e8-a2dc-459b-ab5e-ab11826c695b",
+          "bank:bank-a:SIMA-20260804:SIMA202608040003",
+          "op:249777280547917825"
+        ],
+        "expectedKind": "fee_diff"
+      },
+      {
+        "platformId": "f8d6378a-3913-4063-a83f-82d5c83afd6d",
+        "refs": [
+          "ptx:f8d6378a-3913-4063-a83f-82d5c83afd6d",
+          "bank:bank-a:SIMA-20260804:SIMA202608040004",
+          "op:249777284843012097"
+        ],
+        "expectedKind": "fee_diff"
+      },
+      {
+        "platformId": "9779793d-f585-4c5c-a119-e662780f1fbb",
+        "refs": [
+          "ptx:9779793d-f585-4c5c-a119-e662780f1fbb",
+          "bank:bank-a:SIMA-20260804:SIMA202608040005",
+          "op:249777306317365249"
+        ],
+        "expectedKind": "fee_diff"
+      }
+    ],
+    "typo": [
+      {
+        "platformId": "3308741f-8166-40f2-a733-cfc0fc80a646",
+        "refs": [
+          "ptx:3308741f-8166-40f2-a733-cfc0fc80a646",
+          "bank:bank-a:SIMA-20260803:SIMA202608030008",
+          "op:249777241892954113"
+        ],
+        "expectedKind": "single"
+      },
+      {
+        "platformId": "433862ec-a4b7-45c6-af84-351b0dc1014f",
+        "refs": [
+          "ptx:433862ec-a4b7-45c6-af84-351b0dc1014f",
+          "bank:bank-a:SIMA-20260804:SIMA202608040006",
+          "op:249777310612791297"
+        ],
+        "expectedKind": "single"
+      },
+      {
+        "platformId": "08a4f85b-6d79-4c61-a58c-616644e1122c",
+        "refs": [
+          "ptx:08a4f85b-6d79-4c61-a58c-616644e1122c",
+          "bank:bank-a:SIMA-20260804:SIMA202608040007",
+          "op:249777323497435137"
+        ],
+        "expectedKind": "single"
+      },
+      {
+        "platformId": "44058400-18b4-4a37-afe5-8ac0ee539276",
+        "refs": [
+          "ptx:44058400-18b4-4a37-afe5-8ac0ee539276",
+          "bank:bank-a:SIMA-20260805:SIMA202608050002",
+          "op:249777349267746817"
+        ],
+        "expectedKind": "single"
+      },
+      {
+        "platformId": "47363707-175d-4f33-a4a0-c4c4c6b4a6db",
+        "refs": [
+          "ptx:47363707-175d-4f33-a4a0-c4c4c6b4a6db",
+          "bank:bank-a:SIMA-20260805:SIMA202608050004",
+          "op:249777375036964865"
+        ],
+        "expectedKind": "single"
+      }
+    ],
+    "truncated": [
+      {
+        "platformId": "87dd9111-7f64-4076-a442-1a4c77e9b8b3",
+        "refs": [
+          "ptx:87dd9111-7f64-4076-a442-1a4c77e9b8b3",
+          "bank:bank-b:SIMB-20260803:0004",
+          "op:249777186058498049"
+        ],
+        "expectedKind": "single"
+      },
+      {
+        "platformId": "e0e0982d-0568-4d26-a5df-ca4925a88323",
+        "refs": [
+          "ptx:e0e0982d-0568-4d26-a5df-ca4925a88323",
+          "bank:bank-b:SIMB-20260803:0005",
+          "op:249777194648358913"
+        ],
+        "expectedKind": "single"
+      },
+      {
+        "platformId": "a0b27650-50a4-4e35-ae12-82d5bc97cdd8",
+        "refs": [
+          "ptx:a0b27650-50a4-4e35-ae12-82d5bc97cdd8",
+          "bank:bank-b:SIMB-20260803:0008",
+          "op:249777220418736129"
+        ],
+        "expectedKind": "single"
+      },
+      {
+        "platformId": "34fc928c-de6e-446a-a790-fe588cde9746",
+        "refs": [
+          "ptx:34fc928c-de6e-446a-a790-fe588cde9746",
+          "bank:bank-b:SIMB-20260803:0009",
+          "op:249777224713224193"
+        ],
+        "expectedKind": "single"
+      },
+      {
+        "platformId": "aad712bc-29fa-4e5d-adfe-7a3d1625e669",
+        "refs": [
+          "ptx:aad712bc-29fa-4e5d-adfe-7a3d1625e669",
+          "bank:bank-b:SIMB-20260803:0010",
+          "op:249777229008359425"
+        ],
+        "expectedKind": "single"
+      },
+      {
+        "platformId": "2fd74e51-7441-4397-aa4b-7b6654f0528f",
+        "refs": [
+          "ptx:2fd74e51-7441-4397-aa4b-7b6654f0528f",
+          "bank:bank-b:SIMB-20260803:0011",
+          "op:249777233303457793"
+        ],
+        "expectedKind": "single"
+      },
+      {
+        "platformId": "23e41a66-df3f-47df-ab72-824847075e9e",
+        "refs": [
+          "ptx:23e41a66-df3f-47df-ab72-824847075e9e",
+          "bank:bank-b:SIMB-20260804:0001",
+          "op:249777246188515329"
+        ],
+        "expectedKind": "single"
+      },
+      {
+        "platformId": "27bc2101-df2c-4003-ab26-6296a7cfbeae",
+        "refs": [
+          "ptx:27bc2101-df2c-4003-ab26-6296a7cfbeae",
+          "bank:bank-b:SIMB-20260804:0002",
+          "op:249777250483146753"
+        ],
+        "expectedKind": "single"
+      },
+      {
+        "platformId": "061dda3c-3285-4bb0-a6b5-29fee3aafb0d",
+        "refs": [
+          "ptx:061dda3c-3285-4bb0-a6b5-29fee3aafb0d",
+          "bank:bank-b:SIMB-20260804:0003",
+          "op:249777254777831425"
+        ],
+        "expectedKind": "single"
+      },
+      {
+        "platformId": "084b5477-293e-41e7-a377-418f2c815ccb",
+        "refs": [
+          "ptx:084b5477-293e-41e7-a377-418f2c815ccb",
+          "bank:bank-b:SIMB-20260804:0004",
+          "op:249777259073183745"
+        ],
+        "expectedKind": "single"
+      }
+    ],
+    "reversal": [
+      {
+        "platformId": "1dc7c740-e157-4b3e-af43-dfcd055670e9",
+        "refs": [
+          "ptx:1dc7c740-e157-4b3e-af43-dfcd055670e9",
+          "bank:bank-b:SIMB-20260805:0005",
+          "bank:bank-b:SIMB-20260807:0001"
+        ],
+        "expectedKind": "reversal_pair"
+      },
+      {
+        "platformId": "96b872e5-fe93-4756-a6b5-1406468f029b",
+        "refs": [
+          "ptx:96b872e5-fe93-4756-a6b5-1406468f029b",
+          "bank:bank-b:SIMB-20260811:0004",
+          "bank:bank-b:SIMB-20260813:0002"
+        ],
+        "expectedKind": "reversal_pair"
+      },
+      {
+        "platformId": "da35e155-409d-40a3-a723-02477d7c1204",
+        "refs": [
+          "ptx:da35e155-409d-40a3-a723-02477d7c1204",
+          "bank:bank-b:SIMB-20260818:0004",
+          "bank:bank-b:SIMB-20260820:0001"
+        ],
+        "expectedKind": "reversal_pair"
+      },
+      {
+        "platformId": "6e0242f9-69be-4811-afc0-e2a4a03ee56f",
+        "refs": [
+          "ptx:6e0242f9-69be-4811-afc0-e2a4a03ee56f",
+          "bank:bank-b:SIMB-20260826:0002",
+          "bank:bank-b:SIMB-20260828:0001"
+        ],
+        "expectedKind": "reversal_pair"
+      }
+    ],
+    "fxDiff": [
+      {
+        "platformId": "bc5134fe-2853-46ae-a131-0783bba62222",
+        "refs": [
+          "ptx:bc5134fe-2853-46ae-a131-0783bba62222",
+          "bank:bank-b:SIMB-20260803:0001",
+          "op:249146388507090945"
+        ],
+        "expectedKind": "fx_diff"
+      },
+      {
+        "platformId": "778bd061-4245-4a07-ad55-ff6ad9f70fea",
+        "refs": [
+          "ptx:778bd061-4245-4a07-ad55-ff6ad9f70fea",
+          "bank:bank-b:SIMB-20260803:0002",
+          "op:249146392801669121"
+        ],
+        "expectedKind": "fx_diff"
+      },
+      {
+        "platformId": "bda8cc1b-ab29-4908-ab2c-6bbd32da1910",
+        "refs": [
+          "ptx:bda8cc1b-ab29-4908-ab2c-6bbd32da1910",
+          "bank:bank-b:SIMB-20260803:0003",
+          "op:249777181763891201"
+        ],
+        "expectedKind": "fx_diff"
+      },
+      {
+        "platformId": "256ebbf6-40e3-412c-aed7-d10669bbf2a0",
+        "refs": [
+          "ptx:256ebbf6-40e3-412c-aed7-d10669bbf2a0",
+          "bank:bank-b:SIMB-20260803:0006",
+          "op:249777198943723521"
+        ],
+        "expectedKind": "fx_diff"
+      },
+      {
+        "platformId": "20d79e7c-1ece-4733-aa71-bf5f3f3d7786",
+        "refs": [
+          "ptx:20d79e7c-1ece-4733-aa71-bf5f3f3d7786",
+          "bank:bank-b:SIMB-20260803:0007",
+          "op:249777207533797377"
+        ],
+        "expectedKind": "fx_diff"
+      }
+    ],
+    "claimableBalance": [
+      {
+        "platformId": "6e355555-d0f1-4966-a792-cb81e3e096d5",
+        "refs": [
+          "ptx:6e355555-d0f1-4966-a792-cb81e3e096d5",
+          "bank:bank-a:SIMA-20260806:SIMA202608060001",
+          "op:249777465231925249"
+        ],
+        "expectedKind": "rule:cb_id"
+      },
+      {
+        "platformId": "ce22224a-f70d-412b-ad4e-f10eba707f0d",
+        "refs": [
+          "ptx:ce22224a-f70d-412b-ad4e-f10eba707f0d",
+          "bank:bank-a:SIMA-20260806:SIMA202608060002",
+          "op:249777473821175809"
+        ],
+        "expectedKind": "rule:cb_id"
+      },
+      {
+        "platformId": "41264ad2-84ab-41d5-aec8-ed84723caa6f",
+        "refs": [
+          "ptx:41264ad2-84ab-41d5-aec8-ed84723caa6f",
+          "bank:bank-a:SIMA-20260806:SIMA202608060003",
+          "op:249777486706675713"
+        ],
+        "expectedKind": "rule:cb_id"
+      }
+    ],
+    "muxed": [
+      {
+        "platformId": "241de4fa-e6cd-4451-af0e-83f75537ea76",
+        "refs": [
+          "ptx:241de4fa-e6cd-4451-af0e-83f75537ea76",
+          "bank:bank-b:SIMB-20260804:0005",
+          "op:249777263367700481"
+        ],
+        "expectedKind": "rule:muxed_id"
+      },
+      {
+        "platformId": "32c0701a-e29d-4fcb-aeb2-209d23dbb840",
+        "refs": [
+          "ptx:32c0701a-e29d-4fcb-aeb2-209d23dbb840",
+          "bank:bank-b:SIMB-20260804:0006",
+          "op:249777267663069185"
+        ],
+        "expectedKind": "rule:muxed_id"
+      },
+      {
+        "platformId": "7f7aebb4-8421-4bf4-ae48-594ca7dcc8e1",
+        "refs": [
+          "ptx:7f7aebb4-8421-4bf4-ae48-594ca7dcc8e1",
+          "bank:bank-b:SIMB-20260804:0007",
+          "op:249777276252663809"
+        ],
+        "expectedKind": "rule:muxed_id"
+      },
+      {
+        "platformId": "e7fd2ba0-2b14-4ef3-a468-d522f01c5ade",
+        "refs": [
+          "ptx:e7fd2ba0-2b14-4ef3-a468-d522f01c5ade",
+          "bank:bank-b:SIMB-20260804:0008",
+          "op:249777289137897473"
+        ],
+        "expectedKind": "rule:muxed_id"
+      },
+      {
+        "platformId": "e07e3577-be95-47d2-a76e-33c84e84d275",
+        "refs": [
+          "ptx:e07e3577-be95-47d2-a76e-33c84e84d275",
+          "bank:bank-b:SIMB-20260804:0012",
+          "op:249777314907693057"
+        ],
+        "expectedKind": "rule:muxed_id"
+      },
+      {
+        "platformId": "e69b4dd8-c993-4f04-ab8a-706a929b041a",
+        "refs": [
+          "ptx:e69b4dd8-c993-4f04-ab8a-706a929b041a",
+          "bank:bank-b:SIMB-20260805:0002",
+          "op:249777327792623617"
+        ],
+        "expectedKind": "rule:muxed_id"
+      },
+      {
+        "platformId": "b27a26ea-84db-4693-a6d3-450fdd802170",
+        "refs": [
+          "ptx:b27a26ea-84db-4693-a6d3-450fdd802170",
+          "bank:bank-b:SIMB-20260805:0003",
+          "op:249777332087713793"
+        ],
+        "expectedKind": "rule:muxed_id"
+      },
+      {
+        "platformId": "d8adaf30-91af-4d53-afbb-3c58c670e45d",
+        "refs": [
+          "ptx:d8adaf30-91af-4d53-afbb-3c58c670e45d",
+          "bank:bank-b:SIMB-20260805:0004",
+          "op:249777336382701569"
+        ],
+        "expectedKind": "rule:muxed_id"
+      },
+      {
+        "platformId": "f9c82223-c2aa-4384-a72d-2b50ee1a4eda",
+        "refs": [
+          "ptx:f9c82223-c2aa-4384-a72d-2b50ee1a4eda",
+          "bank:bank-b:SIMB-20260805:0006",
+          "op:249777362151948289"
+        ],
+        "expectedKind": "rule:muxed_id"
+      },
+      {
+        "platformId": "0621ee15-fc6f-4194-a0a8-38b9e04b45e3",
+        "refs": [
+          "ptx:0621ee15-fc6f-4194-a0a8-38b9e04b45e3",
+          "bank:bank-b:SIMB-20260805:0007",
+          "op:249777366447001601"
+        ],
+        "expectedKind": "rule:muxed_id"
+      },
+      {
+        "platformId": "c0dd4674-e1a8-4d95-a761-1669e747323f",
+        "refs": [
+          "ptx:c0dd4674-e1a8-4d95-a761-1669e747323f",
+          "bank:bank-b:SIMB-20260805:0008",
+          "op:249777370742571009"
+        ],
+        "expectedKind": "rule:muxed_id"
+      },
+      {
+        "platformId": "a3290537-b19d-4002-aef1-6357c1c810ed",
+        "refs": [
+          "ptx:a3290537-b19d-4002-aef1-6357c1c810ed",
+          "bank:bank-b:SIMB-20260805:0009",
+          "op:249777383627411457"
+        ],
+        "expectedKind": "rule:muxed_id"
+      }
+    ],
+    "ambiguous": [
+      {
+        "platformId": "fd62025f-8f05-4a59-a1b7-d63e22391315",
+        "refs": [
+          "ptx:fd62025f-8f05-4a59-a1b7-d63e22391315",
+          "bank:bank-a:SIMA-20260819:SIMA202608190001",
+          "op:250377394853191681"
+        ],
+        "expectedKind": "analyst"
+      },
+      {
+        "platformId": "e9a8510e-ab78-4d9a-aca5-18f691341df4",
+        "refs": [
+          "ptx:e9a8510e-ab78-4d9a-aca5-18f691341df4",
+          "bank:bank-a:SIMA-20260819:SIMA202608190002",
+          "op:250377403443257345"
+        ],
+        "expectedKind": "analyst"
+      }
+    ]
+  },
+  "shortfall": {
+    "2026-08-03": "0",
+    "2026-08-04": "0",
+    "2026-08-05": "0",
+    "2026-08-06": "0",
+    "2026-08-07": "0",
+    "2026-08-10": "0",
+    "2026-08-11": "0",
+    "2026-08-12": "0",
+    "2026-08-13": "0",
+    "2026-08-14": "0",
+    "2026-08-17": "0",
+    "2026-08-18": "341250",
+    "2026-08-19": "0",
+    "2026-08-20": "0",
+    "2026-08-21": "0",
+    "2026-08-24": "0",
+    "2026-08-25": "0",
+    "2026-08-26": "0",
+    "2026-08-27": "0",
+    "2026-08-28": "0",
+    "2026-09-01": "0"
+  },
+  "gaps": [
+    "2026-08-20"
+  ],
+  "restatement": {
+    "day": "2026-08-12",
+    "on": "2026-08-13",
+    "reason": "LATE_BANK_ITEM"
+  },
+  "lateBankItem": {
+    "platformId": "5b7d1358-b285-4236-a79a-93b2b9e1207e",
+    "line": "bank:bank-b:SIMB-20260813:0001"
+  },
+  "sweepPolicy": "Bank A closes each day at the requirement plus a random buffer of EUR 0-1,500 (0 on 2026-08-18) by an end-of-day sweep to or from Bank B."
+}

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SIMULATED statement for SIM ANCHOR EMI (simulated); not a real bank. -->
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:camt.053.001.08">
+  <BkToCstmrStmt>
+    <GrpHdr><MsgId>SIMA-MSG-20260901</MsgId><CreDtTm>2026-09-01T18:30:00Z</CreDtTm></GrpHdr>
+    <Stmt>
+      <Id>SIMA-20260901</Id>
+      <ElctrncSeqNb>21</ElctrncSeqNb>
+      <CreDtTm>2026-09-01T18:30:00Z</CreDtTm>
+      <Acct><Id><IBAN>GB00SIMA00000000000001</IBAN></Id><Ccy>EUR</Ccy><Nm>SAFEGUARDING - CLIENT MONEY</Nm></Acct>
+      <Bal><Tp><CdOrPrtry><Cd>OPBD</Cd></CdOrPrtry></Tp><Amt Ccy="EUR">6400.53</Amt><CdtDbtInd>CRDT</CdtDbtInd><Dt><Dt>2026-09-01</Dt></Dt></Bal>
+      <Bal><Tp><CdOrPrtry><Cd>CLBD</Cd></CdOrPrtry></Tp><Amt Ccy="EUR">2903.50</Amt><CdtDbtInd>CRDT</CdtDbtInd><Dt><Dt>2026-09-01</Dt></Dt></Bal>
+      <Ntry>
+        <NtryRef>SIMA202609010001</NtryRef>
+        <Amt Ccy="EUR">520.95</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-09-01</Dt></BookgDt>
+        <ValDt><Dt>2026-09-01</Dt></ValDt>
+        <AcctSvcrRef>SIMA202609010001</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>NOTPROVIDED</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>NWACHUKWU AYSE</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>AR-2CNNMWFQ-V NWACHUKWU AYSE</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202609010002</NtryRef>
+        <Amt Ccy="EUR">442.05</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-09-01</Dt></BookgDt>
+        <ValDt><Dt>2026-09-01</Dt></ValDt>
+        <AcctSvcrRef>SIMA202609010002</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>PAYERC4AA7AB87208</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>NOVAK PEDRO</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>SEPA CT FROM NOVAK PEDRO REF AR-6HJK91MD-5</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202609010003</NtryRef>
+        <Amt Ccy="EUR">365.00</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-09-01</Dt></BookgDt>
+        <ValDt><Dt>2026-09-01</Dt></ValDt>
+        <AcctSvcrRef>SIMA202609010003</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>NOTPROVIDED</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>ANDREI MULLER</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>AR-SY4J3BYK-3 ANDREI MULLER</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202609010004</NtryRef>
+        <Amt Ccy="EUR">448.00</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-09-01</Dt></BookgDt>
+        <ValDt><Dt>2026-09-01</Dt></ValDt>
+        <AcctSvcrRef>SIMA202609010004</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>PAYER4FFC14F6092E</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>J KOWALSKI</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>AR-G14M6W6N-H J KOWALSKI</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202609010005</NtryRef>
+        <Amt Ccy="EUR">1916.00</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-09-01</Dt></BookgDt>
+        <ValDt><Dt>2026-09-01</Dt></ValDt>
+        <AcctSvcrRef>SIMA202609010005</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>PAYERC1208366A147</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>PEDRO IONESCU</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>AR-ERYYTXV8-6 PEDRO IONESCU</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202609010006</NtryRef>
+        <Amt Ccy="EUR">512.47</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-09-01</Dt></BookgDt>
+        <ValDt><Dt>2026-09-01</Dt></ValDt>
+        <AcctSvcrRef>SIMA202609010006</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>PAYER801395DA4DB7</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>JOSE LUIS O&apos;BRIEN</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>AR-52MJMSTA-9 JOSE LUIS O&apos;BRIEN</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202609010007</NtryRef>
+        <Amt Ccy="EUR">7701.50</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-09-01</Dt></BookgDt>
+        <ValDt><Dt>2026-09-01</Dt></ValDt>
+        <AcctSvcrRef>SIMA202609010007</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>NOTPROVIDED</EndToEndId></Refs><RltdPties><Cdtr><Pty><Nm>SIM ANCHOR EMI (simulated)</Nm></Pty></Cdtr></RltdPties><RmtInf><Ustrd>SWEEP TO PAYOUT ACCT</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+    </Stmt>
+  </BkToCstmrStmt>
+</Document>

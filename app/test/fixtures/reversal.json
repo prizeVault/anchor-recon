@@ -1,0 +1,253 @@
+{
+ "name": "reversal",
+ "days": [
+  "2026-08-10",
+  "2026-08-12"
+ ],
+ "customers": [
+  {
+   "id": "C1",
+   "name": "José Luis Pérez García"
+  },
+  {
+   "id": "C2",
+   "name": "Małgorzata Wiśniewska"
+  },
+  {
+   "id": "C3",
+   "name": "Chukwuemeka Obinna Nwankwo-Eze Okafor"
+  },
+  {
+   "id": "C4",
+   "name": "Aoife Fitzgerald"
+  },
+  {
+   "id": "C5",
+   "name": "Søren Østergaard"
+  }
+ ],
+ "platform": {
+  "2026-08-10": [
+   {
+    "id": "tx-rev-closed",
+    "sep": "24",
+    "kind": "withdrawal",
+    "status": "completed",
+    "amount_in": {
+     "amount": "301.50",
+     "asset": "stellar:EURC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+    },
+    "amount_out": {
+     "amount": "300.00",
+     "asset": "iso4217:EUR"
+    },
+    "amount_fee": {
+     "amount": "1.50",
+     "asset": "stellar:EURC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+    },
+    "started_at": "2026-08-10T09:00:00Z",
+    "completed_at": "2026-08-10T15:00:00Z",
+    "updated_at": "2026-08-10T15:00:00Z",
+    "memo": "5501",
+    "memo_type": "id",
+    "stellar_transactions": [],
+    "external_transaction_id": "E2EREV1",
+    "bank_ref": "AR-ZPZZCWY4-B",
+    "customers": {
+     "sender": {
+      "id": "C4"
+     }
+    }
+   },
+   {
+    "id": "tx-rev-open",
+    "sep": "31",
+    "kind": "receive",
+    "status": "completed",
+    "amount_in": {
+     "amount": "660.00",
+     "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+    },
+    "amount_out": {
+     "amount": "600.00",
+     "asset": "iso4217:EUR"
+    },
+    "amount_fee": {
+     "amount": "1.00",
+     "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+    },
+    "started_at": "2026-08-10T09:00:00Z",
+    "completed_at": "2026-08-10T15:00:00Z",
+    "updated_at": "2026-08-10T15:00:00Z",
+    "memo": "5502",
+    "memo_type": "id",
+    "stellar_transactions": [],
+    "external_transaction_id": "E2EREV2",
+    "bank_ref": "AR-ZRMSV391-X",
+    "customers": {
+     "sender": {
+      "id": "EXT-1"
+     },
+     "receiver": {
+      "id": "C5"
+     }
+    },
+    "travel_rule_ref": "TRP-EEEEEEEEEEE1"
+   }
+  ],
+  "2026-08-12": [
+   {
+    "id": "tx-rev-closed",
+    "sep": "24",
+    "kind": "withdrawal",
+    "status": "refunded",
+    "amount_in": {
+     "amount": "301.50",
+     "asset": "stellar:EURC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+    },
+    "amount_out": {
+     "amount": "300.00",
+     "asset": "iso4217:EUR"
+    },
+    "amount_fee": {
+     "amount": "1.50",
+     "asset": "stellar:EURC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+    },
+    "started_at": "2026-08-10T09:00:00Z",
+    "completed_at": "2026-08-10T15:00:00Z",
+    "updated_at": "2026-08-10T15:00:00Z",
+    "memo": "5501",
+    "memo_type": "id",
+    "stellar_transactions": [],
+    "external_transaction_id": "E2EREV1",
+    "bank_ref": "AR-ZPZZCWY4-B",
+    "customers": {
+     "sender": {
+      "id": "C4"
+     }
+    },
+    "refunds": {
+     "payments": [
+      {
+       "id": "beb2da33fad387cf4bf7fb2771accdbe801dc0e4a90a8a4d699713fc147a924c",
+       "id_type": "stellar"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "chain": {
+  "2026-08-10": [
+   {
+    "id": "249537599897645057",
+    "paging_token": "249537599897645057",
+    "transaction_successful": true,
+    "created_at": "2026-08-10T12:00:00Z",
+    "transaction_hash": "96d0cb0dac904189ebb6b9590e0db0146a8952bda0e87d48e73c74d807cec51a",
+    "type": "payment",
+    "source_account": "GDMAHWTFSDDWZWHWFJFJMEN5WSIHSBFEF6IZK6I3YG5JKPIKLFR3HWYS",
+    "transaction": {
+     "hash": "96d0cb0dac904189ebb6b9590e0db0146a8952bda0e87d48e73c74d807cec51a",
+     "created_at": "2026-08-10T12:00:00Z",
+     "memo_type": "id",
+     "memo": "5501"
+    },
+    "from": "GDMAHWTFSDDWZWHWFJFJMEN5WSIHSBFEF6IZK6I3YG5JKPIKLFR3HWYS",
+    "to": "GBCY3QWNSPQSPUNMKJFRAIGTUGGIWIVRAUTFMWWUSEAVCDU5SZPVFO6S",
+    "asset_type": "credit_alphanum4",
+    "asset_code": "EURC",
+    "asset_issuer": "GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO",
+    "amount": "301.5000000"
+   },
+   {
+    "id": "249537599897649153",
+    "paging_token": "249537599897649153",
+    "transaction_successful": true,
+    "created_at": "2026-08-10T12:00:00Z",
+    "transaction_hash": "5c46ac89b7185f341fa01761c5207da946901a0c7b7ea4e67d04286737048a42",
+    "type": "payment",
+    "source_account": "GDVLJOCLVC7AGYO5PZXDRD5P5G6B5KVZJTHVEMMQWIJXHAFCQAMWXTRQ",
+    "transaction": {
+     "hash": "5c46ac89b7185f341fa01761c5207da946901a0c7b7ea4e67d04286737048a42",
+     "created_at": "2026-08-10T12:00:00Z",
+     "memo_type": "id",
+     "memo": "5502"
+    },
+    "from": "GDVLJOCLVC7AGYO5PZXDRD5P5G6B5KVZJTHVEMMQWIJXHAFCQAMWXTRQ",
+    "to": "GBCY3QWNSPQSPUNMKJFRAIGTUGGIWIVRAUTFMWWUSEAVCDU5SZPVFO6S",
+    "asset_type": "credit_alphanum4",
+    "asset_code": "USDC",
+    "asset_issuer": "GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO",
+    "amount": "660.0000000"
+   }
+  ],
+  "2026-08-12": [
+   {
+    "id": "249537599897653249",
+    "paging_token": "249537599897653249",
+    "transaction_successful": true,
+    "created_at": "2026-08-12T12:00:00Z",
+    "transaction_hash": "beb2da33fad387cf4bf7fb2771accdbe801dc0e4a90a8a4d699713fc147a924c",
+    "type": "payment",
+    "source_account": "GDHPL3GX7A5VHF4HEUUNV5LREZHAEC7IE5BL6Y4WVODTUJOEPXV2GNBJ",
+    "transaction": {
+     "hash": "beb2da33fad387cf4bf7fb2771accdbe801dc0e4a90a8a4d699713fc147a924c",
+     "created_at": "2026-08-12T12:00:00Z",
+     "memo_type": "hash",
+     "memo": "/b/2c8T+Q9gFSN1vRVdyegFCRrXn6ulcNkVtfUeujWo="
+    },
+    "from": "GDHPL3GX7A5VHF4HEUUNV5LREZHAEC7IE5BL6Y4WVODTUJOEPXV2GNBJ",
+    "to": "GDMAHWTFSDDWZWHWFJFJMEN5WSIHSBFEF6IZK6I3YG5JKPIKLFR3HWYS",
+    "asset_type": "credit_alphanum4",
+    "asset_code": "EURC",
+    "asset_issuer": "GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO",
+    "amount": "301.5000000"
+   }
+  ]
+ },
+ "bank": {
+  "2026-08-10": [
+   {
+    "id": "B:r1",
+    "account": "bank-b",
+    "direction": "debit",
+    "amount": "30000",
+    "valueDate": "2026-08-10",
+    "narrative": "SEPA CT AOIFE FITZGERALD",
+    "endToEndId": "E2EREV1"
+   },
+   {
+    "id": "B:r2",
+    "account": "bank-b",
+    "direction": "debit",
+    "amount": "60000",
+    "valueDate": "2026-08-10",
+    "narrative": "SEPA CT SOREN OSTERGAARD",
+    "endToEndId": "E2EREV2"
+   }
+  ],
+  "2026-08-12": [
+   {
+    "id": "B:r1ret",
+    "account": "bank-b",
+    "direction": "credit",
+    "amount": "30000",
+    "valueDate": "2026-08-12",
+    "narrative": "RETURN AC04 AOIFE FITZGERALD"
+   },
+   {
+    "id": "B:r2ret",
+    "account": "bank-b",
+    "direction": "credit",
+    "amount": "60000",
+    "valueDate": "2026-08-12",
+    "narrative": "RTN R03 SOREN OSTERGAARD"
+   }
+  ]
+ },
+ "expect": {
+  "closed": "tx-rev-closed",
+  "open": "tx-rev-open"
+ }
+}

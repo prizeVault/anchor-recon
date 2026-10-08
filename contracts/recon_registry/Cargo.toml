@@ -1,0 +1,16 @@
+[package]
+name = "recon_registry"
+version = "0.1.0"
+edition = "2021"
+description = "Append-only daily reconciliation attestation registry for a Stellar anchor (one per anchor and safeguarding currency)"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+doctest = false
+
+[dependencies]
+soroban-sdk = { workspace = true }
+
+[dev-dependencies]
+soroban-sdk = { workspace = true, features = ["testutils"] }

@@ -1,0 +1,73 @@
+{
+ "name": "orphan",
+ "days": [
+  "2026-08-10",
+  "2026-08-11"
+ ],
+ "customers": [
+  {
+   "id": "C1",
+   "name": "José Luis Pérez García"
+  },
+  {
+   "id": "C2",
+   "name": "Małgorzata Wiśniewska"
+  },
+  {
+   "id": "C3",
+   "name": "Chukwuemeka Obinna Nwankwo-Eze Okafor"
+  },
+  {
+   "id": "C4",
+   "name": "Aoife Fitzgerald"
+  },
+  {
+   "id": "C5",
+   "name": "Søren Østergaard"
+  }
+ ],
+ "platform": {},
+ "chain": {
+  "2026-08-10": [
+   {
+    "id": "249537599897657345",
+    "paging_token": "249537599897657345",
+    "transaction_successful": true,
+    "created_at": "2026-08-10T12:00:00Z",
+    "transaction_hash": "cb0ec731d5b8abd70a10426cb25a00c4ce67a10624ffbaa285dfba773e0633d7",
+    "type": "payment",
+    "source_account": "GDUBKJV3AT5SY7WL5EQMQFWEK3GAAPTZOY633R2K3OTKK77J7T5F4R3D",
+    "transaction": {
+     "hash": "cb0ec731d5b8abd70a10426cb25a00c4ce67a10624ffbaa285dfba773e0633d7",
+     "created_at": "2026-08-10T12:00:00Z",
+     "memo_type": "none"
+    },
+    "from": "GDUBKJV3AT5SY7WL5EQMQFWEK3GAAPTZOY633R2K3OTKK77J7T5F4R3D",
+    "to": "GBCY3QWNSPQSPUNMKJFRAIGTUGGIWIVRAUTFMWWUSEAVCDU5SZPVFO6S",
+    "asset_type": "credit_alphanum4",
+    "asset_code": "USDC",
+    "asset_issuer": "GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO",
+    "amount": "1250.0000000"
+   }
+  ]
+ },
+ "bank": {
+  "2026-08-10": [
+   {
+    "id": "A:orph",
+    "account": "bank-a",
+    "direction": "credit",
+    "amount": "74000",
+    "valueDate": "2026-08-10",
+    "narrative": "TRANSFER",
+    "counterparty": "M KOWALSKY"
+   }
+  ]
+ },
+ "expect": {
+  "exceptions": [
+   "UNMATCHED_BANK_CREDIT",
+   "UNMATCHED_CHAIN_IN"
+  ]
+ }
+}

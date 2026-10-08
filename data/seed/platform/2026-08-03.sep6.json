@@ -1,0 +1,47 @@
+[
+ {
+  "id": "3308741f-8166-40f2-a733-cfc0fc80a646",
+  "sep": "6",
+  "kind": "deposit",
+  "status": "completed",
+  "amount_in": {
+   "amount": "770.81",
+   "asset": "iso4217:EUR"
+  },
+  "amount_out": {
+   "amount": "766.96",
+   "asset": "stellar:EURC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+  },
+  "amount_fee": {
+   "amount": "3.85",
+   "asset": "iso4217:EUR"
+  },
+  "started_at": "2026-08-03T09:06:29Z",
+  "updated_at": "2026-08-03T15:27:34Z",
+  "completed_at": "2026-08-03T15:27:34Z",
+  "memo": "G6SZ/GwiH/8UeYavm/XKIYoOjycuyTav4elPnpbw/Ws=",
+  "memo_type": "hash",
+  "stellar_transactions": [
+   {
+    "id": "846a55445dbdc640592a8026ead3c35aa0f03689d4857afb55a358ed7ef10a98",
+    "memo": "G6SZ/GwiH/8UeYavm/XKIYoOjycuyTav4elPnpbw/Ws=",
+    "memo_type": "hash",
+    "payments": [
+     {
+      "id": "249777241892954113",
+      "amount": {
+       "amount": "766.96",
+       "asset": "stellar:EURC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+      }
+     }
+    ]
+   }
+  ],
+  "bank_ref": "AR-3EJ9KZ3C-G",
+  "customers": {
+   "sender": {
+    "id": "CUS-0050"
+   }
+  }
+ }
+]

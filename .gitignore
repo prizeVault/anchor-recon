@@ -1,0 +1,9 @@
+target/
+app/node_modules/
+app/dist/
+app/var/
+var/
+*.wasm
+!contracts/**/test_snapshots/**
+.env
+scripts/.testnet.env

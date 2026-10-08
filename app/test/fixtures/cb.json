@@ -1,0 +1,133 @@
+{
+ "name": "cb",
+ "days": [
+  "2026-08-10",
+  "2026-08-11"
+ ],
+ "customers": [
+  {
+   "id": "C1",
+   "name": "José Luis Pérez García"
+  },
+  {
+   "id": "C2",
+   "name": "Małgorzata Wiśniewska"
+  },
+  {
+   "id": "C3",
+   "name": "Chukwuemeka Obinna Nwankwo-Eze Okafor"
+  },
+  {
+   "id": "C4",
+   "name": "Aoife Fitzgerald"
+  },
+  {
+   "id": "C5",
+   "name": "Søren Østergaard"
+  }
+ ],
+ "platform": {
+  "2026-08-10": [
+   {
+    "id": "tx-cb",
+    "sep": "6",
+    "kind": "deposit",
+    "status": "completed",
+    "amount_in": {
+     "amount": "80.00",
+     "asset": "iso4217:EUR"
+    },
+    "amount_out": {
+     "amount": "79.00",
+     "asset": "stellar:EURC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+    },
+    "amount_fee": {
+     "amount": "1.00",
+     "asset": "iso4217:EUR"
+    },
+    "started_at": "2026-08-10T09:00:00Z",
+    "completed_at": "2026-08-10T15:00:00Z",
+    "updated_at": "2026-08-10T15:00:00Z",
+    "memo": "321cad53b5ebb305e4616196e4168baa939b51cf0f711922566b0c23fac7d314",
+    "memo_type": "hash",
+    "stellar_transactions": [],
+    "claimable_balance_id": "000000006fe9e141aeacfa5367500c769e62216a71fe4f6d46d499f07b740de196986aad",
+    "bank_ref": "AR-68EATMXN-X",
+    "customers": {
+     "sender": {
+      "id": "C4"
+     }
+    }
+   }
+  ]
+ },
+ "chain": {
+  "2026-08-10": [
+   {
+    "id": "249537599897624577",
+    "paging_token": "249537599897624577",
+    "transaction_successful": true,
+    "created_at": "2026-08-10T12:00:00Z",
+    "transaction_hash": "1b4699d05ac3279658941a04a9165a01c5b0e0948ab0f76a0a5b3a68efb6139a",
+    "type": "create_claimable_balance",
+    "source_account": "GDHPL3GX7A5VHF4HEUUNV5LREZHAEC7IE5BL6Y4WVODTUJOEPXV2GNBJ",
+    "transaction": {
+     "hash": "1b4699d05ac3279658941a04a9165a01c5b0e0948ab0f76a0a5b3a68efb6139a",
+     "created_at": "2026-08-10T12:00:00Z",
+     "memo_type": "none"
+    },
+    "asset": "EURC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO",
+    "amount": "79.0000000",
+    "claimants": [
+     {
+      "destination": "GDMAHWTFSDDWZWHWFJFJMEN5WSIHSBFEF6IZK6I3YG5JKPIKLFR3HWYS",
+      "predicate": {
+       "unconditional": true
+      }
+     }
+    ],
+    "balance_id": "000000006fe9e141aeacfa5367500c769e62216a71fe4f6d46d499f07b740de196986aad"
+   }
+  ],
+  "2026-08-11": [
+   {
+    "id": "249537599897628673",
+    "paging_token": "249537599897628673",
+    "transaction_successful": true,
+    "created_at": "2026-08-11T12:00:00Z",
+    "transaction_hash": "6796db6086b11baa7864e1ee03108d3c7016d8ca095d1f939ff17722f2916cc8",
+    "type": "claim_claimable_balance",
+    "source_account": "GDMAHWTFSDDWZWHWFJFJMEN5WSIHSBFEF6IZK6I3YG5JKPIKLFR3HWYS",
+    "transaction": {
+     "hash": "6796db6086b11baa7864e1ee03108d3c7016d8ca095d1f939ff17722f2916cc8",
+     "created_at": "2026-08-11T12:00:00Z",
+     "memo_type": "none"
+    },
+    "balance_id": "000000006fe9e141aeacfa5367500c769e62216a71fe4f6d46d499f07b740de196986aad",
+    "claimant": "GDMAHWTFSDDWZWHWFJFJMEN5WSIHSBFEF6IZK6I3YG5JKPIKLFR3HWYS",
+    "sponsor": "GDHPL3GX7A5VHF4HEUUNV5LREZHAEC7IE5BL6Y4WVODTUJOEPXV2GNBJ",
+    "asset": "EURC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+   }
+  ]
+ },
+ "bank": {
+  "2026-08-10": [
+   {
+    "id": "A:cb",
+    "account": "bank-a",
+    "direction": "credit",
+    "amount": "8000",
+    "valueDate": "2026-08-10",
+    "narrative": "AR-68EATMXN-X AOIFE FITZGERALD",
+    "counterparty": "AOIFE FITZGERALD"
+   }
+  ]
+ },
+ "expect": {
+  "rules": [
+   "cb_id",
+   "ar_token",
+   "cb_claim"
+  ]
+ }
+}

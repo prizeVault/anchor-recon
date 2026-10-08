@@ -1,0 +1,160 @@
+{
+ "name": "truncated",
+ "days": [
+  "2026-08-10"
+ ],
+ "customers": [
+  {
+   "id": "C1",
+   "name": "José Luis Pérez García"
+  },
+  {
+   "id": "C2",
+   "name": "Małgorzata Wiśniewska"
+  },
+  {
+   "id": "C3",
+   "name": "Chukwuemeka Obinna Nwankwo-Eze Okafor"
+  },
+  {
+   "id": "C4",
+   "name": "Aoife Fitzgerald"
+  },
+  {
+   "id": "C5",
+   "name": "Søren Østergaard"
+  }
+ ],
+ "platform": {
+  "2026-08-10": [
+   {
+    "id": "tx-trunc",
+    "sep": "24",
+    "kind": "withdrawal",
+    "status": "completed",
+    "amount_in": {
+     "amount": "4213.37",
+     "asset": "stellar:EURC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+    },
+    "amount_out": {
+     "amount": "4192.41",
+     "asset": "iso4217:EUR"
+    },
+    "amount_fee": {
+     "amount": "20.96",
+     "asset": "stellar:EURC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+    },
+    "started_at": "2026-08-10T09:00:00Z",
+    "completed_at": "2026-08-10T15:00:00Z",
+    "updated_at": "2026-08-10T15:00:00Z",
+    "memo": "6601",
+    "memo_type": "id",
+    "stellar_transactions": [],
+    "bank_ref": "AR-W9DAWFRF-1",
+    "customers": {
+     "sender": {
+      "id": "C3"
+     }
+    }
+   },
+   {
+    "id": "tx-typo",
+    "sep": "24",
+    "kind": "deposit",
+    "status": "completed",
+    "amount_in": {
+     "amount": "812.40",
+     "asset": "iso4217:EUR"
+    },
+    "amount_out": {
+     "amount": "808.34",
+     "asset": "stellar:EURC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+    },
+    "amount_fee": {
+     "amount": "4.06",
+     "asset": "iso4217:EUR"
+    },
+    "started_at": "2026-08-10T09:00:00Z",
+    "completed_at": "2026-08-10T15:00:00Z",
+    "updated_at": "2026-08-10T15:00:00Z",
+    "stellar_transactions": [],
+    "bank_ref": "AR-N1P8Y04T-C",
+    "customers": {
+     "sender": {
+      "id": "C1"
+     }
+    }
+   },
+   {
+    "id": "tx-review",
+    "sep": "31",
+    "kind": "receive",
+    "status": "completed",
+    "amount_in": {
+     "amount": "1500.00",
+     "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+    },
+    "amount_out": {
+     "amount": "1366.62",
+     "asset": "iso4217:EUR"
+    },
+    "amount_fee": {
+     "amount": "1.00",
+     "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+    },
+    "started_at": "2026-08-10T09:00:00Z",
+    "completed_at": "2026-08-10T15:00:00Z",
+    "updated_at": "2026-08-10T15:00:00Z",
+    "memo": "6602",
+    "memo_type": "id",
+    "stellar_transactions": [],
+    "bank_ref": "AR-7HK7C598-6",
+    "customers": {
+     "sender": {
+      "id": "EXT-1"
+     },
+     "receiver": {
+      "id": "C5"
+     }
+    },
+    "travel_rule_ref": "TRP-EEEEEEEEEEE1"
+   }
+  ]
+ },
+ "chain": {},
+ "bank": {
+  "2026-08-10": [
+   {
+    "id": "B:tr",
+    "account": "bank-b",
+    "direction": "debit",
+    "amount": "419241",
+    "valueDate": "2026-08-10",
+    "narrative": "PAYOUT CHUKWUEMEKA OBINNA AR-W9DAWF"
+   },
+   {
+    "id": "A:ty",
+    "account": "bank-a",
+    "direction": "credit",
+    "amount": "81240",
+    "valueDate": "2026-08-10",
+    "narrative": "AR-1NP8Y04T-C JOSE LUIS PERES GARCIA",
+    "counterparty": "JOSE LUIS PERES GARCIA"
+   },
+   {
+    "id": "B:rv",
+    "account": "bank-b",
+    "direction": "debit",
+    "amount": "136662",
+    "valueDate": "2026-08-10",
+    "narrative": "PAYOUT S OSTERG AR-7H"
+   }
+  ]
+ },
+ "expect": {
+  "truncated": "tx-trunc",
+  "typo": "tx-typo",
+  "typoToken": "AR-1NP8Y04T-C",
+  "review": "tx-review"
+ }
+}

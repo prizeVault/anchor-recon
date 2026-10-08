@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SIMULATED statement for SIM ANCHOR EMI (simulated); not a real bank. -->
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:camt.053.001.08">
+  <BkToCstmrStmt>
+    <GrpHdr><MsgId>SIMA-MSG-20260806</MsgId><CreDtTm>2026-08-06T18:30:00Z</CreDtTm></GrpHdr>
+    <Stmt>
+      <Id>SIMA-20260806</Id>
+      <ElctrncSeqNb>4</ElctrncSeqNb>
+      <CreDtTm>2026-08-06T18:30:00Z</CreDtTm>
+      <Acct><Id><IBAN>GB00SIMA00000000000001</IBAN></Id><Ccy>EUR</Ccy><Nm>SAFEGUARDING - CLIENT MONEY</Nm></Acct>
+      <Bal><Tp><CdOrPrtry><Cd>OPBD</Cd></CdOrPrtry></Tp><Amt Ccy="EUR">521.64</Amt><CdtDbtInd>CRDT</CdtDbtInd><Dt><Dt>2026-08-06</Dt></Dt></Bal>
+      <Bal><Tp><CdOrPrtry><Cd>CLBD</Cd></CdOrPrtry></Tp><Amt Ccy="EUR">1927.17</Amt><CdtDbtInd>CRDT</CdtDbtInd><Dt><Dt>2026-08-06</Dt></Dt></Bal>
+      <Ntry>
+        <NtryRef>SIMA202608060001</NtryRef>
+        <Amt Ccy="EUR">240.94</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-06</Dt></BookgDt>
+        <ValDt><Dt>2026-08-06</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608060001</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>NOTPROVIDED</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>NIKOLAOS BIANCHI</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>AR 6JSBH16E H NIKOLAOS BIANCHI</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608060002</NtryRef>
+        <Amt Ccy="EUR">1222.87</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-06</Dt></BookgDt>
+        <ValDt><Dt>2026-08-06</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608060002</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>NOTPROVIDED</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>IOANA NWACHUKWU</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>SEPA CT FROM IOANA NWACHUKWU REF AR 4T92P3TQ N</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608060003</NtryRef>
+        <Amt Ccy="EUR">292.24</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-06</Dt></BookgDt>
+        <ValDt><Dt>2026-08-06</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608060003</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>PAYERF8C12CFC21B4</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>IONESCU PEDRO</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>AR8N92XX7D7 IONESCU PEDRO</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608060004</NtryRef>
+        <Amt Ccy="EUR">250.95</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-06</Dt></BookgDt>
+        <ValDt><Dt>2026-08-06</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608060004</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>PAYERCA858A4479ED</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>NIKOLAOS BIANCHI</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>AR-MKAEDHSR-5 NIKOLAOS BIANCHI</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608060005</NtryRef>
+        <Amt Ccy="EUR">601.47</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-06</Dt></BookgDt>
+        <ValDt><Dt>2026-08-06</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608060005</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>NOTPROVIDED</EndToEndId></Refs><RltdPties><Cdtr><Pty><Nm>SIM ANCHOR EMI (simulated)</Nm></Pty></Cdtr></RltdPties><RmtInf><Ustrd>SWEEP TO PAYOUT ACCT</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+    </Stmt>
+  </BkToCstmrStmt>
+</Document>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SIMULATED statement for SIM ANCHOR EMI (simulated); not a real bank. -->
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:camt.053.001.08">
+  <BkToCstmrStmt>
+    <GrpHdr><MsgId>SIMA-MSG-20260803</MsgId><CreDtTm>2026-08-03T18:30:00Z</CreDtTm></GrpHdr>
+    <Stmt>
+      <Id>SIMA-20260803</Id>
+      <ElctrncSeqNb>1</ElctrncSeqNb>
+      <CreDtTm>2026-08-03T18:30:00Z</CreDtTm>
+      <Acct><Id><IBAN>GB00SIMA00000000000001</IBAN></Id><Ccy>EUR</Ccy><Nm>SAFEGUARDING - CLIENT MONEY</Nm></Acct>
+      <Bal><Tp><CdOrPrtry><Cd>OPBD</Cd></CdOrPrtry></Tp><Amt Ccy="EUR">0.00</Amt><CdtDbtInd>CRDT</CdtDbtInd><Dt><Dt>2026-08-03</Dt></Dt></Bal>
+      <Bal><Tp><CdOrPrtry><Cd>CLBD</Cd></CdOrPrtry></Tp><Amt Ccy="EUR">1074.92</Amt><CdtDbtInd>CRDT</CdtDbtInd><Dt><Dt>2026-08-03</Dt></Dt></Bal>
+      <Ntry>
+        <NtryRef>SIMA202608030001</NtryRef>
+        <Amt Ccy="EUR">178.33</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-03</Dt></BookgDt>
+        <ValDt><Dt>2026-08-03</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608030001</AcctSvcrRef>
+        <Chrgs><TtlChrgsAndTaxAmt Ccy="EUR">0.35</TtlChrgsAndTaxAmt></Chrgs>
+        <NtryDtls><TxDtls><Refs><EndToEndId>NOTPROVIDED</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>M KAMAU</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>AR-XF36Z11A-0 M KAMAU</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608030002</NtryRef>
+        <Amt Ccy="EUR">131.27</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-03</Dt></BookgDt>
+        <ValDt><Dt>2026-08-03</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608030002</AcctSvcrRef>
+        <Chrgs><TtlChrgsAndTaxAmt Ccy="EUR">0.35</TtlChrgsAndTaxAmt></Chrgs>
+        <NtryDtls><TxDtls><Refs><EndToEndId>NOTPROVIDED</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>ADAEZE DUBOIS</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>AR-D29M3TB7-C ADAEZE DUBOIS</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608030003</NtryRef>
+        <Amt Ccy="EUR">36.81</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-03</Dt></BookgDt>
+        <ValDt><Dt>2026-08-03</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608030003</AcctSvcrRef>
+        <Chrgs><TtlChrgsAndTaxAmt Ccy="EUR">0.35</TtlChrgsAndTaxAmt></Chrgs>
+        <NtryDtls><TxDtls><Refs><EndToEndId>NOTPROVIDED</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>ANNA PÉREZ GARCÍA</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>AR-PW3VN38V-X ANNA PÉREZ GARCÍA</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608030004</NtryRef>
+        <Amt Ccy="EUR">76.00</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-03</Dt></BookgDt>
+        <ValDt><Dt>2026-08-03</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608030004</AcctSvcrRef>
+        <Chrgs><TtlChrgsAndTaxAmt Ccy="EUR">0.35</TtlChrgsAndTaxAmt></Chrgs>
+        <NtryDtls><TxDtls><Refs><EndToEndId>NOTPROVIDED</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>CHIARA MURPHY</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>AR-ENA9GANN-7 CHIARA MURPHY</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608030005</NtryRef>
+        <Amt Ccy="EUR">820.40</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-03</Dt></BookgDt>
+        <ValDt><Dt>2026-08-03</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608030005</AcctSvcrRef>
+        <Chrgs><TtlChrgsAndTaxAmt Ccy="EUR">0.35</TtlChrgsAndTaxAmt></Chrgs>
+        <NtryDtls><TxDtls><Refs><EndToEndId>NOTPROVIDED</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>J LUIS LEWANDOWSKA</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>AR6Q9SR5DKS J LUIS LEWANDOWSKA</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608030006</NtryRef>
+        <Amt Ccy="EUR">995.65</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-03</Dt></BookgDt>
+        <ValDt><Dt>2026-08-03</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608030006</AcctSvcrRef>
+        <Chrgs><TtlChrgsAndTaxAmt Ccy="EUR">0.35</TtlChrgsAndTaxAmt></Chrgs>
+        <NtryDtls><TxDtls><Refs><EndToEndId>NOTPROVIDED</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>SCHRODER SAMUEL</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>AR CJDP1BZ7 H SCHRODER SAMUEL</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608030007</NtryRef>
+        <Amt Ccy="EUR">179.63</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-03</Dt></BookgDt>
+        <ValDt><Dt>2026-08-03</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608030007</AcctSvcrRef>
+        <Chrgs><TtlChrgsAndTaxAmt Ccy="EUR">0.35</TtlChrgsAndTaxAmt></Chrgs>
+        <NtryDtls><TxDtls><Refs><EndToEndId>NOTPROVIDED</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>MALGORZATA KAMAU</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>AR-7S8T4YRS-X MALGORZATA KAMAU</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608030008</NtryRef>
+        <Amt Ccy="EUR">770.81</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-03</Dt></BookgDt>
+        <ValDt><Dt>2026-08-03</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608030008</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>NOTPROVIDED</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>AMARA POPECSU</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>AR-3SJ9KZ3C-G AMARA POPECSU</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608030009</NtryRef>
+        <Amt Ccy="EUR">25.00</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-03</Dt></BookgDt>
+        <ValDt><Dt>2026-08-03</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608030009</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>NOTPROVIDED</EndToEndId></Refs><RmtInf><Ustrd>BANK CHARGES ACCOUNT FEE JUL 2026</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608030010</NtryRef>
+        <Amt Ccy="EUR">2088.98</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-03</Dt></BookgDt>
+        <ValDt><Dt>2026-08-03</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608030010</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>NOTPROVIDED</EndToEndId></Refs><RltdPties><Cdtr><Pty><Nm>SIM ANCHOR EMI (simulated)</Nm></Pty></Cdtr></RltdPties><RmtInf><Ustrd>SWEEP TO PAYOUT ACCT</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+    </Stmt>
+  </BkToCstmrStmt>
+</Document>

@@ -1,0 +1,221 @@
+customer_id,full_name,country
+CUS-0001,"María de los Ángeles Fernández-Castellanos Rubio",GR
+CUS-0002,"Oluwadamilare Babatunde Adewale-Ogunleye",DE
+CUS-0003,"Jean-Baptiste Hippolyte de la Rochefoucauld",GR
+CUS-0004,"Chukwuemeka Obinna Nwankwo-Eze Okafor",KE
+CUS-0005,"Anna-Katharina von Hohenberg-Schwarzenfeld",NG
+CUS-0006,"João Guilherme Vasconcelos de Albuquerque",GH
+CUS-0007,"Małgorzata Aleksandra Wiśniewska-Zielińska",DK
+CUS-0008,"Siobhán Nic Giolla Phádraig Uí Bhriain",FR
+CUS-0009,"Dimitrios Konstantinos Papachristopoulos",PT
+CUS-0010,"Ngozi Chiamaka Onyekachukwu-Ibekwe",PL
+CUS-0011,"Sofía Guadalupe Hernández de la Torre",GH
+CUS-0012,"Frederik Christian Østergaard-Kristiansen",FR
+CUS-0013,"Liam Martín",DE
+CUS-0014,"Marta Schröder",TR
+CUS-0015,"Małgorzata González Fernández",PL
+CUS-0016,"Thomas Nwachukwu",ES
+CUS-0017,"Chiara Nwachukwu",NG
+CUS-0018,"Małgorzata Jiménez",TR
+CUS-0019,"María José Oyelaran",ES
+CUS-0020,"Dimitrios Nowak",TR
+CUS-0021,"Samuel Bianchi",TR
+CUS-0022,"Sofía Murphy",ES
+CUS-0023,"Marta Horváth",ES
+CUS-0024,"Jürgen Horváth",NL
+CUS-0025,"Chiara Bianchi",NG
+CUS-0026,"Liam Ferreira",PT
+CUS-0027,"Grace Andersson",PT
+CUS-0028,"Jürgen Dubois",IT
+CUS-0029,"Siobhán Kamau",GH
+CUS-0030,"Andrei Mensah",KE
+CUS-0031,"Wanjiru Novák",DE
+CUS-0032,"Inês Achterberg",NL
+CUS-0033,"María José Ferreira",ES
+CUS-0034,"Anna Pérez García",DE
+CUS-0035,"Ayşe Novák",FR
+CUS-0036,"Sébastien Sánchez",DE
+CUS-0037,"Ayşe Nwachukwu",GR
+CUS-0038,"Oluwaseun Sánchez",ES
+CUS-0039,"Björn Østergaard",RO
+CUS-0040,"Tomás Nowak",NG
+CUS-0041,"Ayşe Lewandowska",KE
+CUS-0042,"Lucía Østergaard",PL
+CUS-0043,"Mehmet Østergaard",FR
+CUS-0044,"Ruth Østergaard",TR
+CUS-0045,"Wanjiru Bianchi",FR
+CUS-0046,"Grace Wiśniewski",NG
+CUS-0047,"Ruth Müller",ES
+CUS-0048,"João Pedro Jiménez",GH
+CUS-0049,"Liam Müller",PT
+CUS-0050,"Amara Popescu",IT
+CUS-0051,"Siobhán Adeyemi",NG
+CUS-0052,"Eleni Popescu",FR
+CUS-0053,"Ioana Jensen",FR
+CUS-0054,"Mehmet Popescu",GR
+CUS-0055,"Marta Nwachukwu",RO
+CUS-0056,"Sofía Lefèvre",GR
+CUS-0057,"Pedro Novák",FR
+CUS-0058,"Małgorzata Jensen",DK
+CUS-0059,"Sébastien Jensen",IT
+CUS-0060,"Hélène Mensah",TR
+CUS-0061,"María José Østergaard",PL
+CUS-0062,"Jürgen Adeyemi",NG
+CUS-0063,"Lucía Lefèvre",IE
+CUS-0064,"Zoë Rossi",PT
+CUS-0065,"Pedro Rossi",NG
+CUS-0066,"Marta Kamau",IT
+CUS-0067,"Björn Papadopoulos",FR
+CUS-0068,"José Luis Pérez García",IT
+CUS-0069,"José Luis Sánchez",TR
+CUS-0070,"Inês Andersson",ES
+CUS-0071,"María José Schröder",GR
+CUS-0072,"Anna Papadopoulos",GR
+CUS-0073,"Andrei Horváth",FR
+CUS-0074,"Dimitrios Schröder",RO
+CUS-0075,"Björn Costa",NG
+CUS-0076,"Zoë O'Brien",GR
+CUS-0077,"Chiara van der Berg",GR
+CUS-0078,"Wanjiru Dubois",IT
+CUS-0079,"Katarzyna Bianchi",PT
+CUS-0080,"Marta Ionescu",NG
+CUS-0081,"João Pedro Moreau",GH
+CUS-0082,"Andrei Müller",TR
+CUS-0083,"Ruth Moreau",PT
+CUS-0084,"Jürgen Kowalski",PT
+CUS-0085,"Ruth Jensen",GR
+CUS-0086,"Grace Horváth",GR
+CUS-0087,"Grace Ionescu",PT
+CUS-0088,"Søren Murphy",IE
+CUS-0089,"Chukwuemeka Schröder",RO
+CUS-0090,"Emma Müller",GH
+CUS-0091,"Liam Ionescu",KE
+CUS-0092,"Nikolaos Wiśniewski",IT
+CUS-0093,"Adaeze Dubois",GH
+CUS-0094,"François Jensen",DE
+CUS-0095,"Ayşe van der Berg",IE
+CUS-0096,"Oluwaseun Müller",IE
+CUS-0097,"Mateus Papadopoulos",TR
+CUS-0098,"Björn Kowalski",RO
+CUS-0099,"Chiara Murphy",KE
+CUS-0100,"João Pedro Adeyemi",ES
+CUS-0101,"François Oyelaran",NL
+CUS-0102,"Fatima Murphy",NL
+CUS-0103,"Björn Jensen",GR
+CUS-0104,"Anna Jensen",DE
+CUS-0105,"Samuel Rossi",IT
+CUS-0106,"Amara Papadopoulos",IT
+CUS-0107,"Giuseppe Dubois",GH
+CUS-0108,"José Luis Mensah",IT
+CUS-0109,"Sofía Martín",KE
+CUS-0110,"Giuseppe Lefèvre",FR
+CUS-0111,"Aoife da Silva Santos",NG
+CUS-0112,"María José Ionescu",IT
+CUS-0113,"Łukasz Murphy",GR
+CUS-0114,"Marta Østergaard",ES
+CUS-0115,"Anna Moreau",PT
+CUS-0116,"Wanjiru Nwachukwu",IT
+CUS-0117,"Inês Papadopoulos",IT
+CUS-0118,"Fatima Nowak",PL
+CUS-0119,"Chiara González Fernández",GH
+CUS-0120,"Samuel Østergaard",PL
+CUS-0121,"Ayşe da Silva Santos",DK
+CUS-0122,"Nikolaos Bianchi",TR
+CUS-0123,"Ioana Horváth",PT
+CUS-0124,"Marta Wiśniewski",PL
+CUS-0125,"Ngozi Novák",NG
+CUS-0126,"María José Andersson",NG
+CUS-0127,"Lucía Pérez García",GH
+CUS-0128,"Łukasz Oyelaran",PL
+CUS-0129,"Oluwaseun Achterberg",FR
+CUS-0130,"Pedro Jiménez",IE
+CUS-0131,"Łukasz Nowak",ES
+CUS-0132,"Søren Lewandowska",ES
+CUS-0133,"Piotr Jensen",DK
+CUS-0134,"Mehmet Kamau",ES
+CUS-0135,"Adaeze Mensah",RO
+CUS-0136,"Björn Horváth",TR
+CUS-0137,"Tomás Moreau",TR
+CUS-0138,"José Luis Kowalski",IE
+CUS-0139,"Tomás Ferreira",ES
+CUS-0140,"Ana Jensen",GH
+CUS-0141,"Małgorzata Kamau",DK
+CUS-0142,"Jürgen Jensen",NG
+CUS-0143,"Søren da Silva Santos",IT
+CUS-0144,"María José Martín",ES
+CUS-0145,"Thomas Lewandowska",NL
+CUS-0146,"Emma González Fernández",IT
+CUS-0147,"Dimitrios Dubois",DK
+CUS-0148,"José Luis Moreau",IT
+CUS-0149,"Eleni Fitzgerald",FR
+CUS-0150,"Pedro Ionescu",PT
+CUS-0151,"Ana Pérez García",IT
+CUS-0152,"José Luis Lewandowska",NL
+CUS-0153,"Ana Kowalski",DE
+CUS-0154,"Oluwaseun Lefèvre",NG
+CUS-0155,"Fatima Østergaard",NG
+CUS-0156,"Sébastien Fitzgerald",IT
+CUS-0157,"Piotr Moreau",PL
+CUS-0158,"Anna Costa",FR
+CUS-0159,"Piotr Dubois",PT
+CUS-0160,"Samuel Pérez García",NL
+CUS-0161,"Giuseppe Nwachukwu",NG
+CUS-0162,"Amara Schröder",GR
+CUS-0163,"Grace Kovačević",KE
+CUS-0164,"Björn Murphy",GH
+CUS-0165,"Chukwuemeka Sánchez",DK
+CUS-0166,"Aoife Kowalski",DK
+CUS-0167,"Liam Kovačević",NL
+CUS-0168,"Oluwaseun Ionescu",RO
+CUS-0169,"Dimitrios Yılmaz",RO
+CUS-0170,"Katarzyna Jiménez",DE
+CUS-0171,"Grace da Silva Santos",GR
+CUS-0172,"Amara Fitzgerald",FR
+CUS-0173,"Chukwuemeka Popescu",GH
+CUS-0174,"Sofía Müller",TR
+CUS-0175,"Ruth Oyelaran",DK
+CUS-0176,"Emma Costa",GH
+CUS-0177,"Sébastien Costa",NL
+CUS-0178,"Grace Murphy",FR
+CUS-0179,"Ana Horváth",IT
+CUS-0180,"Nikolaos da Silva Santos",RO
+CUS-0181,"Sofía Pérez García",NL
+CUS-0182,"Chukwuemeka Moreau",FR
+CUS-0183,"Pedro Wiśniewski",RO
+CUS-0184,"Sébastien Lefèvre",IT
+CUS-0185,"José Luis O'Brien",FR
+CUS-0186,"Siobhán Müller",DK
+CUS-0187,"Ana Mensah",PT
+CUS-0188,"Sofía Andersson",KE
+CUS-0189,"Amara Nowak",NL
+CUS-0190,"Samuel Schröder",NL
+CUS-0191,"Kwame Kowalski",DE
+CUS-0192,"Samuel Nwachukwu",NL
+CUS-0193,"Chukwuemeka Lewandowska",DE
+CUS-0194,"Ngozi Okonkwo",RO
+CUS-0195,"Ngozi Lewandowska",RO
+CUS-0196,"Siobhán Ferreira",NG
+CUS-0197,"Liam Oyelaran",ES
+CUS-0198,"Amara Horváth",DK
+CUS-0199,"Pedro Oyelaran",PL
+CUS-0200,"Dimitrios Jensen",DK
+CUS-0201,"Tomás van der Berg",KE
+CUS-0202,"Inês Bianchi",ES
+CUS-0203,"Kwame O'Brien",RO
+CUS-0204,"Mateus Jensen",DE
+CUS-0205,"Ioana Nwachukwu",PL
+CUS-0206,"Sofía Bianchi",PT
+CUS-0207,"Kwame Mensah",TR
+CUS-0208,"María José Okonkwo",IE
+CUS-0209,"João Pedro Müller",DE
+CUS-0210,"Jürgen Pérez García",FR
+CUS-0211,"José Luis van der Berg",TR
+CUS-0212,"Aoife O'Brien",PL
+CUS-0213,"Mateus Kowalski",GH
+CUS-0214,"Aoife Rossi",GH
+CUS-0215,"Søren Pérez García",DK
+CUS-0216,"Søren Schröder",TR
+CUS-0217,"Zoë da Silva Santos",IE
+CUS-0218,"Liam Lefèvre",FR
+CUS-0219,"Piotr Mensah",NL
+CUS-0220,"María José González Fernández",NG

@@ -1,0 +1,169 @@
+[
+ {
+  "id": "3e217d6d-fbe6-4acb-a80c-89f66602aa9e",
+  "sep": "6",
+  "kind": "withdrawal",
+  "status": "completed",
+  "amount_in": {
+   "amount": "1069.38",
+   "asset": "stellar:EURC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+  },
+  "amount_out": {
+   "amount": "1064.06",
+   "asset": "iso4217:EUR"
+  },
+  "amount_fee": {
+   "amount": "5.32",
+   "asset": "stellar:EURC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+  },
+  "started_at": "2026-08-18T07:08:14Z",
+  "updated_at": "2026-08-18T15:30:43Z",
+  "completed_at": "2026-08-18T15:30:43Z",
+  "memo": "WD404743",
+  "memo_type": "text",
+  "stellar_transactions": [],
+  "external_transaction_id": "E2E737808358B08837F",
+  "bank_ref": "AR-D4MZGW4M-2",
+  "customers": {
+   "sender": {
+    "id": "CUS-0219"
+   }
+  }
+ },
+ {
+  "id": "5b346714-2f3a-46b4-a2af-7e51a93d220b",
+  "sep": "6",
+  "kind": "deposit",
+  "status": "completed",
+  "amount_in": {
+   "amount": "1149.00",
+   "asset": "iso4217:EUR"
+  },
+  "amount_out": {
+   "amount": "1143.26",
+   "asset": "stellar:EURC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+  },
+  "amount_fee": {
+   "amount": "5.74",
+   "asset": "iso4217:EUR"
+  },
+  "started_at": "2026-08-18T13:29:03Z",
+  "updated_at": "2026-08-18T15:49:07Z",
+  "completed_at": "2026-08-18T15:49:07Z",
+  "memo": "NIxeoa0bwe/VDdKZVRv2qf8kvb8z/W1yPZq/PlMJ3Fk=",
+  "memo_type": "hash",
+  "stellar_transactions": [
+   {
+    "id": "a0e956038db0bfaec0fb32a4cb8aa5949f83d92edde9cf6c318356948b5253a1",
+    "memo": "NIxeoa0bwe/VDdKZVRv2qf8kvb8z/W1yPZq/PlMJ3Fk=",
+    "memo_type": "hash",
+    "payments": [
+     {
+      "id": "250377343313567745",
+      "amount": {
+       "amount": "1143.26",
+       "asset": "stellar:EURC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+      }
+     }
+    ]
+   }
+  ],
+  "bank_ref": "AR-6J65X8DD-H",
+  "customers": {
+   "sender": {
+    "id": "CUS-0052"
+   }
+  }
+ },
+ {
+  "id": "a524ef79-a202-4a68-a16b-d0b997a9688e",
+  "sep": "6",
+  "kind": "withdrawal",
+  "status": "completed",
+  "amount_in": {
+   "amount": "171.66",
+   "asset": "stellar:EURC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+  },
+  "amount_out": {
+   "amount": "170.66",
+   "asset": "iso4217:EUR"
+  },
+  "amount_fee": {
+   "amount": "1.00",
+   "asset": "stellar:EURC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+  },
+  "started_at": "2026-08-18T08:02:56Z",
+  "updated_at": "2026-08-18T15:26:43Z",
+  "completed_at": "2026-08-18T15:26:43Z",
+  "memo": "WD404744",
+  "memo_type": "text",
+  "stellar_transactions": [
+   {
+    "id": "33ce06216e4f16071ea1e6d642dc52fb72932f849080e5c10c8944837cbd5c71",
+    "memo": "WD404744",
+    "memo_type": "text",
+    "payments": [
+     {
+      "id": "250377330428735489",
+      "amount": {
+       "amount": "171.66",
+       "asset": "stellar:EURC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+      }
+     }
+    ]
+   }
+  ],
+  "external_transaction_id": "E2E8F116B3F47DB10E9",
+  "bank_ref": "AR-GKPS0PXX-V",
+  "customers": {
+   "sender": {
+    "id": "CUS-0119"
+   }
+  }
+ },
+ {
+  "id": "e4d44a64-634d-4e12-af78-8b4d43550e83",
+  "sep": "6",
+  "kind": "deposit",
+  "status": "completed",
+  "amount_in": {
+   "amount": "664.36",
+   "asset": "iso4217:EUR"
+  },
+  "amount_out": {
+   "amount": "661.04",
+   "asset": "stellar:EURC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+  },
+  "amount_fee": {
+   "amount": "3.32",
+   "asset": "iso4217:EUR"
+  },
+  "started_at": "2026-08-18T10:51:15Z",
+  "updated_at": "2026-08-18T15:35:40Z",
+  "completed_at": "2026-08-18T15:35:40Z",
+  "memo": "67fc36eceba7a33fce205f7e8484a05a8802dfd86bf904368e97a164ad0e1700",
+  "memo_type": "hash",
+  "stellar_transactions": [
+   {
+    "id": "5db0fa7959e74473644ef5fa7e63e327a7845148495b9bec01f1c722491604fd",
+    "memo": "67fc36eceba7a33fce205f7e8484a05a8802dfd86bf904368e97a164ad0e1700",
+    "memo_type": "hash",
+    "payments": [
+     {
+      "id": "250377373378715649",
+      "amount": {
+       "amount": "661.04",
+       "asset": "stellar:EURC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+      }
+     }
+    ]
+   }
+  ],
+  "bank_ref": "AR-CZY3DV7B-G",
+  "customers": {
+   "sender": {
+    "id": "CUS-0045"
+   }
+  }
+ }
+]

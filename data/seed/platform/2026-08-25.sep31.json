@@ -1,0 +1,349 @@
+[
+ {
+  "id": "0e11a24c-3f5e-4224-aca7-86ccb3510efb",
+  "sep": "31",
+  "kind": "receive",
+  "status": "completed",
+  "amount_in": {
+   "amount": "422.00",
+   "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+  },
+  "amount_out": {
+   "amount": "385.91",
+   "asset": "iso4217:EUR"
+  },
+  "amount_fee": {
+   "amount": "1.26",
+   "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+  },
+  "started_at": "2026-08-25T07:36:32Z",
+  "updated_at": "2026-08-25T15:37:10Z",
+  "completed_at": "2026-08-25T15:37:10Z",
+  "memo": "404773",
+  "memo_type": "id",
+  "stellar_transactions": [
+   {
+    "id": "b3ef6c91caedcb65f79a5e1d648c48cf914d6cff905ce64b1a780473f5346e83",
+    "memo": "404773",
+    "memo_type": "id",
+    "payments": [
+     {
+      "id": "250767919049400321",
+      "amount": {
+       "amount": "422.00",
+       "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+      }
+     }
+    ]
+   }
+  ],
+  "external_transaction_id": "E2E28E5A84FAD2934A9",
+  "bank_ref": "AR-KEJT140Y-4",
+  "customers": {
+   "sender": {
+    "id": "EXT-0e11a2"
+   },
+   "receiver": {
+    "id": "CUS-0026"
+   }
+  },
+  "quote_id": "q-0e11a24c",
+  "travel_rule_ref": "TR-REF-MISSING"
+ },
+ {
+  "id": "1a86c680-0a01-44e5-af30-c997cbb54ff6",
+  "sep": "31",
+  "kind": "receive",
+  "status": "completed",
+  "amount_in": {
+   "amount": "110.03",
+   "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+  },
+  "amount_out": {
+   "amount": "100.74",
+   "asset": "iso4217:EUR"
+  },
+  "amount_fee": {
+   "amount": "1.00",
+   "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+  },
+  "started_at": "2026-08-25T13:31:18Z",
+  "updated_at": "2026-08-25T15:00:06Z",
+  "completed_at": "2026-08-25T15:00:06Z",
+  "memo": "S31-E98635F7",
+  "memo_type": "text",
+  "stellar_transactions": [],
+  "external_transaction_id": "E2E4790243A581329BC",
+  "bank_ref": "AR-52FXCNA6-0",
+  "customers": {
+   "sender": {
+    "id": "EXT-1a86c6"
+   },
+   "receiver": {
+    "id": "CUS-0192"
+   }
+  },
+  "quote_id": "q-1a86c680",
+  "travel_rule_ref": "3717bc048c0c25a309078a91cde9019c4a3fd1f999eb3801c15344644031a9b1"
+ },
+ {
+  "id": "3ac3a6de-6c7b-4398-adaf-a3dd0a10bdbc",
+  "sep": "31",
+  "kind": "receive",
+  "status": "completed",
+  "amount_in": {
+   "amount": "803.55",
+   "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+  },
+  "amount_out": {
+   "amount": "730.09",
+   "asset": "iso4217:EUR"
+  },
+  "amount_fee": {
+   "amount": "2.41",
+   "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+  },
+  "started_at": "2026-08-24T14:09:20Z",
+  "updated_at": "2026-08-25T15:35:43Z",
+  "completed_at": "2026-08-25T15:35:43Z",
+  "memo": "J3kvPQMoD0XlRHnuLQJU35iOda7e9tnzBv9yYQTlrvU=",
+  "memo_type": "hash",
+  "stellar_transactions": [
+   {
+    "id": "30775a3b9f4f87483f5fb76d67e0b44272133849a071d371e5b902f485f865c4",
+    "memo": "J3kvPQMoD0XlRHnuLQJU35iOda7e9tnzBv9yYQTlrvU=",
+    "memo_type": "hash",
+    "payments": [
+     {
+      "id": "250767910459797505",
+      "amount": {
+       "amount": "803.55",
+       "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+      }
+     }
+    ]
+   }
+  ],
+  "external_transaction_id": "E2E4C9E5FEF363F763D",
+  "bank_ref": "AR-FDBA2MXY-K",
+  "customers": {
+   "sender": {
+    "id": "EXT-3ac3a6"
+   },
+   "receiver": {
+    "id": "CUS-0051"
+   }
+  },
+  "quote_id": "q-3ac3a6de",
+  "travel_rule_ref": "2d4cfebd028cc81fe0e0d900dc46c9695a41274711c23fb9174939a365bab4fa"
+ },
+ {
+  "id": "a158140d-a4ec-4cf4-aae2-2b8c1ed08423",
+  "sep": "31",
+  "kind": "receive",
+  "status": "completed",
+  "amount_in": {
+   "amount": "40.07",
+   "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+  },
+  "amount_out": {
+   "amount": "35.60",
+   "asset": "iso4217:EUR"
+  },
+  "amount_fee": {
+   "amount": "1.00",
+   "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+  },
+  "started_at": "2026-08-25T13:30:52Z",
+  "updated_at": "2026-08-25T15:25:25Z",
+  "completed_at": "2026-08-25T15:25:25Z",
+  "memo": "404779",
+  "memo_type": "id",
+  "stellar_transactions": [
+   {
+    "id": "d99b1c67231026f2a2e7c6dcdf271b84b2aef9840a5fc86c076043f4ea062584",
+    "memo": "404779",
+    "memo_type": "id",
+    "payments": [
+     {
+      "id": "250840207643914241",
+      "amount": {
+       "amount": "40.07",
+       "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+      }
+     }
+    ]
+   }
+  ],
+  "external_transaction_id": "E2E52061B1E9F6BBEF3",
+  "bank_ref": "AR-A8PRMNWS-H",
+  "customers": {
+   "sender": {
+    "id": "EXT-a15814"
+   },
+   "receiver": {
+    "id": "CUS-0097"
+   }
+  },
+  "quote_id": "q-a158140d",
+  "travel_rule_ref": "6472b51300f2900bface8fd9716c60528591f9931ef1f9b7e052c6c1ab5b98b6"
+ },
+ {
+  "id": "bcd5cee7-b330-48e6-adda-e12841de9399",
+  "sep": "31",
+  "kind": "receive",
+  "status": "pending_receiver",
+  "amount_in": {
+   "amount": "2685.75",
+   "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+  },
+  "amount_out": {
+   "amount": "2478.83",
+   "asset": "iso4217:EUR"
+  },
+  "amount_fee": {
+   "amount": "8.05",
+   "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+  },
+  "started_at": "2026-08-25T14:38:25Z",
+  "updated_at": "2026-08-25T15:32:59Z",
+  "memo": "404774",
+  "memo_type": "id",
+  "stellar_transactions": [],
+  "external_transaction_id": "E2E360D312202A6CAEA",
+  "bank_ref": "AR-RF3J57W3-D",
+  "customers": {
+   "sender": {
+    "id": "EXT-bcd5ce"
+   },
+   "receiver": {
+    "id": "CUS-0124"
+   }
+  },
+  "quote_id": "q-bcd5cee7",
+  "travel_rule_ref": "TRP-B0B934A72667"
+ },
+ {
+  "id": "c6e9d5e5-f5f5-48cb-af0d-57e1f652b46c",
+  "sep": "31",
+  "kind": "receive",
+  "status": "completed",
+  "amount_in": {
+   "amount": "632.22",
+   "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+  },
+  "amount_out": {
+   "amount": "574.76",
+   "asset": "iso4217:EUR"
+  },
+  "amount_fee": {
+   "amount": "1.89",
+   "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+  },
+  "started_at": "2026-08-25T08:59:45Z",
+  "updated_at": "2026-08-25T15:27:48Z",
+  "completed_at": "2026-08-25T15:27:48Z",
+  "memo": "S31-7DD4BD2A",
+  "memo_type": "text",
+  "stellar_transactions": [],
+  "external_transaction_id": "E2E2EE7764C7AE04E33",
+  "bank_ref": "AR-7VJ4X5PV-M",
+  "customers": {
+   "sender": {
+    "id": "EXT-c6e9d5"
+   },
+   "receiver": {
+    "id": "CUS-0125"
+   }
+  },
+  "quote_id": "q-c6e9d5e5",
+  "travel_rule_ref": "4a3fa147a63ca378d2f358f4f24b7d9a713788ffec28f196f8e16c823f6f97a0"
+ },
+ {
+  "id": "da9bbf6d-6c9e-4967-a0bf-119d5f39e0f2",
+  "sep": "31",
+  "kind": "receive",
+  "status": "completed",
+  "amount_in": {
+   "amount": "100.63",
+   "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+  },
+  "amount_out": {
+   "amount": "91.52",
+   "asset": "iso4217:EUR"
+  },
+  "amount_fee": {
+   "amount": "1.00",
+   "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+  },
+  "started_at": "2026-08-25T13:57:20Z",
+  "updated_at": "2026-08-25T15:51:31Z",
+  "completed_at": "2026-08-25T15:51:31Z",
+  "memo": "c290da6e189cd1a161d95a54eb19b1e055f3b9c0833df475edfcda5d9f305760",
+  "memo_type": "hash",
+  "stellar_transactions": [
+   {
+    "id": "801c18852c7a241963de1600432a70d9e58fbbf24ff59b11637bf3d223eb1467",
+    "memo": "c290da6e189cd1a161d95a54eb19b1e055f3b9c0833df475edfcda5d9f305760",
+    "memo_type": "hash",
+    "payments": [
+     {
+      "id": "250840216234446849",
+      "amount": {
+       "amount": "100.63",
+       "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+      }
+     }
+    ]
+   }
+  ],
+  "external_transaction_id": "E2E3FEAF6DBEEC46106",
+  "bank_ref": "AR-0N1VB2H2-S",
+  "customers": {
+   "sender": {
+    "id": "EXT-da9bbf"
+   },
+   "receiver": {
+    "id": "CUS-0167"
+   }
+  },
+  "quote_id": "q-da9bbf6d",
+  "travel_rule_ref": "1d8dbcd394b5b0740641b047163eb10f692fb93d16c2208c0e61b5dd45766a23"
+ },
+ {
+  "id": "daeb564a-d879-4211-aec8-7cf05c5ae35b",
+  "sep": "31",
+  "kind": "receive",
+  "status": "completed",
+  "amount_in": {
+   "amount": "420.62",
+   "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+  },
+  "amount_out": {
+   "amount": "389.00",
+   "asset": "iso4217:EUR"
+  },
+  "amount_fee": {
+   "amount": "1.26",
+   "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+  },
+  "started_at": "2026-08-25T12:10:37Z",
+  "updated_at": "2026-08-25T15:06:00Z",
+  "completed_at": "2026-08-25T15:06:00Z",
+  "memo": "404775",
+  "memo_type": "id",
+  "stellar_transactions": [],
+  "external_transaction_id": "E2E9929C979061B8617",
+  "bank_ref": "AR-3CN68YR6-V",
+  "customers": {
+   "sender": {
+    "id": "EXT-daeb56"
+   },
+   "receiver": {
+    "id": "CUS-0193"
+   }
+  },
+  "quote_id": "q-daeb564a",
+  "travel_rule_ref": "TRP-634B60018CFC"
+ }
+]

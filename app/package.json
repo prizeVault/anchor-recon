@@ -1,0 +1,32 @@
+{
+  "name": "anchor-recon",
+  "version": "0.1.0",
+  "description": "recon: three-way reconciliation (Anchor Platform, Stellar, bank) with scored fuzzy matching, exceptions, safeguarding figures and a Soroban attestation registry",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "recon": "./dist/src/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --test \"dist/test/**/*.test.js\"",
+    "cli": "node dist/src/cli.js",
+    "seed": "tsc -p tsconfig.json && node dist/src/cli.js seed",
+    "simulate": "tsc -p tsconfig.json && node dist/src/cli.js simulate --days 30",
+    "fixtures": "tsc -p tsconfig.json && node dist/test/fixtures/build.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.128.0",
+    "@stellar/stellar-sdk": "^17.1.0",
+    "ajv": "^8.17.1",
+    "fast-xml-parser": "^5.2.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  }
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SIMULATED statement for SIM ANCHOR EMI (simulated); not a real bank. -->
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:camt.053.001.08">
+  <BkToCstmrStmt>
+    <GrpHdr><MsgId>SIMA-MSG-20260825</MsgId><CreDtTm>2026-08-25T18:30:00Z</CreDtTm></GrpHdr>
+    <Stmt>
+      <Id>SIMA-20260825</Id>
+      <ElctrncSeqNb>17</ElctrncSeqNb>
+      <CreDtTm>2026-08-25T18:30:00Z</CreDtTm>
+      <Acct><Id><IBAN>GB00SIMA00000000000001</IBAN></Id><Ccy>EUR</Ccy><Nm>SAFEGUARDING - CLIENT MONEY</Nm></Acct>
+      <Bal><Tp><CdOrPrtry><Cd>OPBD</Cd></CdOrPrtry></Tp><Amt Ccy="EUR">1605.21</Amt><CdtDbtInd>CRDT</CdtDbtInd><Dt><Dt>2026-08-25</Dt></Dt></Bal>
+      <Bal><Tp><CdOrPrtry><Cd>CLBD</Cd></CdOrPrtry></Tp><Amt Ccy="EUR">6783.87</Amt><CdtDbtInd>CRDT</CdtDbtInd><Dt><Dt>2026-08-25</Dt></Dt></Bal>
+      <Ntry>
+        <NtryRef>SIMA202608250001</NtryRef>
+        <Amt Ccy="EUR">130.00</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-25</Dt></BookgDt>
+        <ValDt><Dt>2026-08-25</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608250001</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>NOTPROVIDED</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>AOIFE ROSSI</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>AR-DPRNQ5Q0-B AOIFE ROSSI</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608250002</NtryRef>
+        <Amt Ccy="EUR">598.91</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-25</Dt></BookgDt>
+        <ValDt><Dt>2026-08-25</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608250002</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>PAYER1957E79E4567</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>THOMAS NWACHUKWU</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>SEPA CT FROM THOMAS NWACHUKWU REF AR-CXPTGMY7-9</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608250003</NtryRef>
+        <Amt Ccy="EUR">201.34</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-25</Dt></BookgDt>
+        <ValDt><Dt>2026-08-25</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608250003</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>NOTPROVIDED</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>AMARA SCHRODER</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>AR1EQD2D359 AMARA SCHRODER</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608250004</NtryRef>
+        <Amt Ccy="EUR">330.47</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-25</Dt></BookgDt>
+        <ValDt><Dt>2026-08-25</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608250004</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>PAYERE7AC7FA436C5</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>PAPADOPOULOS ANNA</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>DEPOSIT PAPADOPOULOS ANNA</Ustrd><Ustrd>REF AR-HWTQCAZX-K</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608250005</NtryRef>
+        <Amt Ccy="EUR">677.04</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-25</Dt></BookgDt>
+        <ValDt><Dt>2026-08-25</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608250005</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>NOTPROVIDED</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>SEBASTIEN FITZGERALD</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>ARS3HPE7TWM SEBASTIEN FITZGERALD</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608250006</NtryRef>
+        <Amt Ccy="EUR">3240.90</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-25</Dt></BookgDt>
+        <ValDt><Dt>2026-08-25</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608250006</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>NOTPROVIDED</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>SIM ANCHOR EMI (simulated)</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>SWEEP FROM PAYOUT ACCT</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+    </Stmt>
+  </BkToCstmrStmt>
+</Document>

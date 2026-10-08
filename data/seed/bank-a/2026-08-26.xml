@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SIMULATED statement for SIM ANCHOR EMI (simulated); not a real bank. -->
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:camt.053.001.08">
+  <BkToCstmrStmt>
+    <GrpHdr><MsgId>SIMA-MSG-20260826</MsgId><CreDtTm>2026-08-26T18:30:00Z</CreDtTm></GrpHdr>
+    <Stmt>
+      <Id>SIMA-20260826</Id>
+      <ElctrncSeqNb>18</ElctrncSeqNb>
+      <CreDtTm>2026-08-26T18:30:00Z</CreDtTm>
+      <Acct><Id><IBAN>GB00SIMA00000000000001</IBAN></Id><Ccy>EUR</Ccy><Nm>SAFEGUARDING - CLIENT MONEY</Nm></Acct>
+      <Bal><Tp><CdOrPrtry><Cd>OPBD</Cd></CdOrPrtry></Tp><Amt Ccy="EUR">6783.87</Amt><CdtDbtInd>CRDT</CdtDbtInd><Dt><Dt>2026-08-26</Dt></Dt></Bal>
+      <Bal><Tp><CdOrPrtry><Cd>CLBD</Cd></CdOrPrtry></Tp><Amt Ccy="EUR">3874.58</Amt><CdtDbtInd>CRDT</CdtDbtInd><Dt><Dt>2026-08-26</Dt></Dt></Bal>
+      <Ntry>
+        <NtryRef>SIMA202608260001</NtryRef>
+        <Amt Ccy="EUR">169.53</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-26</Dt></BookgDt>
+        <ValDt><Dt>2026-08-26</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608260001</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>NOTPROVIDED</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>M GONZALEZ FERNANDEZ</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>AR-4PZPNCMX-7 PART 1</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608260002</NtryRef>
+        <Amt Ccy="EUR">377.36</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-26</Dt></BookgDt>
+        <ValDt><Dt>2026-08-26</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608260002</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>NOTPROVIDED</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>M GONZALEZ FERNANDEZ</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>AR-4PZPNCMX-7 PART 2</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608260003</NtryRef>
+        <Amt Ccy="EUR">837.00</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-26</Dt></BookgDt>
+        <ValDt><Dt>2026-08-26</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608260003</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>PAYER07C8B20FCAAE</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>JURGEN JENSEN</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>SEPA CT FROM JURGEN JENSEN REF AR AFG1CHX1 R</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608260004</NtryRef>
+        <Amt Ccy="EUR">1012.66</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-26</Dt></BookgDt>
+        <ValDt><Dt>2026-08-26</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608260004</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>PAYER9EE1406AC42D</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>DIMITRIOS NOWAK</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>DEPOSIT DIMITRIOS NOWAK</Ustrd><Ustrd>REF AR-B3QE2CX4-X</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608260005</NtryRef>
+        <Amt Ccy="EUR">782.31</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-26</Dt></BookgDt>
+        <ValDt><Dt>2026-08-26</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608260005</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>PAYERB99115BA343E</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>LIAM FERREIRA</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>AR-1FZFS9JD-D LIAM FERREIRA</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608260006</NtryRef>
+        <Amt Ccy="EUR">669.00</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-26</Dt></BookgDt>
+        <ValDt><Dt>2026-08-26</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608260006</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>NOTPROVIDED</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>PEDRO IONESCU</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>DEPOSIT PEDRO IONESCU</Ustrd><Ustrd>REF AR-NX7BDJ4X-2</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608260007</NtryRef>
+        <Amt Ccy="EUR">8000.18</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-26</Dt></BookgDt>
+        <ValDt><Dt>2026-08-26</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608260007</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>PAYERD6B27AF8CAAB</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>MENSAH PIOTR</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>AR-PY52P30Y-B MENSAH PIOTR</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608260008</NtryRef>
+        <Amt Ccy="EUR">262.17</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-26</Dt></BookgDt>
+        <ValDt><Dt>2026-08-26</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608260008</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>PAYER30C60DFE4D80</EndToEndId></Refs><RltdPties><Dbtr><Pty><Nm>WANJIRU NWACHUKWU</Nm></Pty></Dbtr></RltdPties><RmtInf><Ustrd>AR-BTF84SRZ-K WANJIRU NWACHUKWU</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>SIMA202608260009</NtryRef>
+        <Amt Ccy="EUR">15019.50</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-08-26</Dt></BookgDt>
+        <ValDt><Dt>2026-08-26</Dt></ValDt>
+        <AcctSvcrRef>SIMA202608260009</AcctSvcrRef>
+        
+        <NtryDtls><TxDtls><Refs><EndToEndId>NOTPROVIDED</EndToEndId></Refs><RltdPties><Cdtr><Pty><Nm>SIM ANCHOR EMI (simulated)</Nm></Pty></Cdtr></RltdPties><RmtInf><Ustrd>SWEEP TO PAYOUT ACCT</Ustrd></RmtInf></TxDtls></NtryDtls>
+      </Ntry>
+    </Stmt>
+  </BkToCstmrStmt>
+</Document>

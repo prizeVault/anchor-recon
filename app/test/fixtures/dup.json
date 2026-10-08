@@ -1,0 +1,208 @@
+{
+ "name": "dup",
+ "days": [
+  "2026-08-10"
+ ],
+ "customers": [
+  {
+   "id": "C1",
+   "name": "José Luis Pérez García"
+  },
+  {
+   "id": "C2",
+   "name": "Małgorzata Wiśniewska"
+  },
+  {
+   "id": "C3",
+   "name": "Chukwuemeka Obinna Nwankwo-Eze Okafor"
+  },
+  {
+   "id": "C4",
+   "name": "Aoife Fitzgerald"
+  },
+  {
+   "id": "C5",
+   "name": "Søren Østergaard"
+  }
+ ],
+ "platform": {
+  "2026-08-10": [
+   {
+    "id": "tx-dup-dep",
+    "sep": "6",
+    "kind": "deposit",
+    "status": "completed",
+    "amount_in": {
+     "amount": "400.00",
+     "asset": "iso4217:EUR"
+    },
+    "amount_out": {
+     "amount": "398.00",
+     "asset": "stellar:EURC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+    },
+    "amount_fee": {
+     "amount": "2.00",
+     "asset": "iso4217:EUR"
+    },
+    "started_at": "2026-08-10T09:00:00Z",
+    "completed_at": "2026-08-10T15:00:00Z",
+    "updated_at": "2026-08-10T15:00:00Z",
+    "memo": "f2780aca32f0c4a476aa5eb6dd2bc4160cf9fe029611f649d73ac5a500bcb62b",
+    "memo_type": "hash",
+    "stellar_transactions": [
+     {
+      "id": "3a0dacbeff85c65f5479dfbc88c3b9a24a82df878407a69d4bcadd5628ba0f86",
+      "memo": "f2780aca32f0c4a476aa5eb6dd2bc4160cf9fe029611f649d73ac5a500bcb62b",
+      "memo_type": "hash",
+      "payments": []
+     }
+    ],
+    "bank_ref": "AR-Y9W0NJHJ-4",
+    "customers": {
+     "sender": {
+      "id": "C2"
+     }
+    }
+   },
+   {
+    "id": "tx-dup-pay",
+    "sep": "31",
+    "kind": "receive",
+    "status": "completed",
+    "amount_in": {
+     "amount": "500.00",
+     "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+    },
+    "amount_out": {
+     "amount": "455.10",
+     "asset": "iso4217:EUR"
+    },
+    "amount_fee": {
+     "amount": "1.00",
+     "asset": "stellar:USDC:GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO"
+    },
+    "started_at": "2026-08-10T09:00:00Z",
+    "completed_at": "2026-08-10T15:00:00Z",
+    "updated_at": "2026-08-10T15:00:00Z",
+    "memo": "S31-77",
+    "memo_type": "text",
+    "stellar_transactions": [],
+    "external_transaction_id": "E2EDUP0001",
+    "bank_ref": "AR-Y818A899-C",
+    "customers": {
+     "sender": {
+      "id": "EXT-1"
+     },
+     "receiver": {
+      "id": "C3"
+     }
+    },
+    "travel_rule_ref": "TRP-000000000001"
+   }
+  ]
+ },
+ "chain": {
+  "2026-08-10": [
+   {
+    "id": "249537599897632769",
+    "paging_token": "249537599897632769",
+    "transaction_successful": true,
+    "created_at": "2026-08-10T12:00:00Z",
+    "transaction_hash": "3a0dacbeff85c65f5479dfbc88c3b9a24a82df878407a69d4bcadd5628ba0f86",
+    "type": "payment",
+    "source_account": "GDHPL3GX7A5VHF4HEUUNV5LREZHAEC7IE5BL6Y4WVODTUJOEPXV2GNBJ",
+    "transaction": {
+     "hash": "3a0dacbeff85c65f5479dfbc88c3b9a24a82df878407a69d4bcadd5628ba0f86",
+     "created_at": "2026-08-10T12:00:00Z",
+     "memo_type": "hash",
+     "memo": "8ngKyjLwxKR2ql623SvEFgz5/gKWEfZJ1zrFpQC8tis="
+    },
+    "from": "GDHPL3GX7A5VHF4HEUUNV5LREZHAEC7IE5BL6Y4WVODTUJOEPXV2GNBJ",
+    "to": "GDTQDK5OTOE6IZLPN7DZZ5NOCVNDFDAVBJWQ2JVE3BXCLPAGHLLWXOJL",
+    "asset_type": "credit_alphanum4",
+    "asset_code": "EURC",
+    "asset_issuer": "GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO",
+    "amount": "398.0000000"
+   },
+   {
+    "id": "249537599897636865",
+    "paging_token": "249537599897636865",
+    "transaction_successful": true,
+    "created_at": "2026-08-10T12:00:00Z",
+    "transaction_hash": "50eb497e697fe626bb8a4fb4d31f5867b0b32ea231d3c9c8f2aaf914816ace7a",
+    "type": "payment",
+    "source_account": "GDHPL3GX7A5VHF4HEUUNV5LREZHAEC7IE5BL6Y4WVODTUJOEPXV2GNBJ",
+    "transaction": {
+     "hash": "50eb497e697fe626bb8a4fb4d31f5867b0b32ea231d3c9c8f2aaf914816ace7a",
+     "created_at": "2026-08-10T12:00:00Z",
+     "memo_type": "hash",
+     "memo": "8ngKyjLwxKR2ql623SvEFgz5/gKWEfZJ1zrFpQC8tis="
+    },
+    "from": "GDHPL3GX7A5VHF4HEUUNV5LREZHAEC7IE5BL6Y4WVODTUJOEPXV2GNBJ",
+    "to": "GDTQDK5OTOE6IZLPN7DZZ5NOCVNDFDAVBJWQ2JVE3BXCLPAGHLLWXOJL",
+    "asset_type": "credit_alphanum4",
+    "asset_code": "EURC",
+    "asset_issuer": "GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO",
+    "amount": "398.0000000"
+   },
+   {
+    "id": "249537599897640961",
+    "paging_token": "249537599897640961",
+    "transaction_successful": true,
+    "created_at": "2026-08-10T12:00:00Z",
+    "transaction_hash": "9cb4b7dc6d9e2e0324f83ec579f10709415cef17d00e626cb4511799a74ca1d2",
+    "type": "payment",
+    "source_account": "GDVLJOCLVC7AGYO5PZXDRD5P5G6B5KVZJTHVEMMQWIJXHAFCQAMWXTRQ",
+    "transaction": {
+     "hash": "9cb4b7dc6d9e2e0324f83ec579f10709415cef17d00e626cb4511799a74ca1d2",
+     "created_at": "2026-08-10T12:00:00Z",
+     "memo_type": "text",
+     "memo": "S31-77"
+    },
+    "from": "GDVLJOCLVC7AGYO5PZXDRD5P5G6B5KVZJTHVEMMQWIJXHAFCQAMWXTRQ",
+    "to": "GBCY3QWNSPQSPUNMKJFRAIGTUGGIWIVRAUTFMWWUSEAVCDU5SZPVFO6S",
+    "asset_type": "credit_alphanum4",
+    "asset_code": "USDC",
+    "asset_issuer": "GAX5RMC3AZQBJQ2MTMEVDYQELTSNSH3ZDRND6GFIIDFNLUITTFVTSQGO",
+    "amount": "500.0000000"
+   }
+  ]
+ },
+ "bank": {
+  "2026-08-10": [
+   {
+    "id": "A:dup",
+    "account": "bank-a",
+    "direction": "credit",
+    "amount": "40000",
+    "valueDate": "2026-08-10",
+    "narrative": "AR-Y9W0NJHJ-4 MALGORZATA WISNIEWSKA",
+    "counterparty": "MALGORZATA WISNIEWSKA"
+   },
+   {
+    "id": "B:dup1",
+    "account": "bank-b",
+    "direction": "debit",
+    "amount": "45510",
+    "valueDate": "2026-08-10",
+    "narrative": "SEPA CT CHUKWUEMEKA OKAFOR",
+    "endToEndId": "E2EDUP0001"
+   },
+   {
+    "id": "B:dup2",
+    "account": "bank-b",
+    "direction": "debit",
+    "amount": "45510",
+    "valueDate": "2026-08-10",
+    "narrative": "SEPA CT CHUKWUEMEKA OKAFOR",
+    "endToEndId": "E2EDUP0001"
+   }
+  ]
+ },
+ "expect": {
+  "exceptions": [
+   "DUPLICATE_CHAIN_PAYMENT",
+   "DUPLICATE_PAYOUT"
+  ]
+ }
+}

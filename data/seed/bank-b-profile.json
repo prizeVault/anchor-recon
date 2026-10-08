@@ -1,0 +1,16 @@
+{
+  "delimiter": ";",
+  "bom": true,
+  "dateFormat": "DD/MM/YYYY",
+  "decimalSeparator": ",",
+  "currency": "EUR",
+  "columns": {
+    "bookingDate": "Booking date",
+    "valueDate": "Value date",
+    "narrative": "Description",
+    "reference": "Reference",
+    "debit": "Debit",
+    "credit": "Credit",
+    "balance": "Balance"
+  }
+}
