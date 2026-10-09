@@ -1,6 +1,7 @@
 {
   "name": "anchor-recon",
   "version": "0.1.0",
+  "keywords": ["recon", "stellar"],
   "description": "recon: three-way reconciliation (Anchor Platform, Stellar, bank) with scored fuzzy matching, exceptions, safeguarding figures and a Soroban attestation registry",
   "private": true,
   "type": "module",
