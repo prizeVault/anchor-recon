@@ -168,3 +168,4 @@ software.
   books have not been tried.
 - **Monthly draft** from the CLI needs registry statuses. `simulate` produces it. The online path
   would read `status(day)` from the registry.
+ 
