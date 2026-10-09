@@ -125,8 +125,12 @@ stellar/anchor-recon/
 **functional locally.** The contract's tests pass under `cargo test`, `stellar contract build`
 produces the wasm, and the app's 103 offline tests and the 30-day simulation pass in this
 environment. The scripts `scripts/deploy-testnet.sh` and `scripts/e2e-testnet.sh` are
-**testnet-ready** but were **not executed**: testnet RPC, Horizon and Friendbot were unreachable
-from the build environment. Nothing is deployed. No anchor, analyst, auditor or partner has used
+**testnet-ready**. 
+
+**Deployed Contract on Testnet:**
+[CCBIJG32SUNWL4AUEC7SXS6SCIL6LHVXQLAIWPEV3YLCOI2CYBSHA5VW](https://stellar.expert/explorer/testnet/contract/CCBIJG32SUNWL4AUEC7SXS6SCIL6LHVXQLAIWPEV3YLCOI2CYBSHA5VW)
+
+Nothing is deployed to mainnet. No anchor, analyst, auditor or partner has used
 or seen the tool. No interviews have taken place, and nothing has been measured on real data. The
 on-chain part is thin by design (see the note at the top), and whether any anchor will publish a
 daily hash and shortfall at all is killer question 2 in `VALIDATION.md`.
