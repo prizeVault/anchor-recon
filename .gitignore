@@ -7,3 +7,4 @@ var/
 !contracts/**/test_snapshots/**
 .env
 scripts/.testnet.env
+.DS_Store
