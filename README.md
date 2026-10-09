@@ -130,3 +130,4 @@ from the build environment. Nothing is deployed. No anchor, analyst, auditor or 
 or seen the tool. No interviews have taken place, and nothing has been measured on real data. The
 on-chain part is thin by design (see the note at the top), and whether any anchor will publish a
 daily hash and shortfall at all is killer question 2 in `VALIDATION.md`.
+ 
