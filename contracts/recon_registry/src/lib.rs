@@ -37,7 +37,7 @@ use soroban_sdk::{
 // Constants
 // ---------------------------------------------------------------------------
 
-pub const SECS_PER_DAY: u64 = 86_400;
+pub const SECS_PER_DAY: u64 = 86_400; // seconds in a day: u64 = 86_400;
 /// Maximum days scanned by one `mark_gaps` call and maximum `gaps` range.
 pub const MAX_SCAN: u32 = 62;
 /// Maximum versions (original + restatements) per day.
