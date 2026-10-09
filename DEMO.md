@@ -231,3 +231,4 @@ scripts/e2e-testnet.sh               # the full journey below (it calls deploy i
 Because the seed days are in the past, every attestation will carry `late = true`. Expected
 results are the `OK:` lines shown in C. The environment's network was unavailable, so none of
 this has been observed.
+ 
