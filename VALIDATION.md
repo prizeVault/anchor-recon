@@ -221,3 +221,4 @@ The main risks, in order:
 
 The runtime failure handling (a missing statement, a provider outage, a lost signer key, invalid
 LLM output) is described in `ARCHITECTURE.md` and `docs/EXCEPTION-TYPES.md`.
+ 
